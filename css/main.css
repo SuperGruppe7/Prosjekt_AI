@@ -31,7 +31,7 @@ h3
 #header_menu
 {
     /* Menyen i headeren*/
-    position: absolute;
+    position: fixed;
     height: 60px;
     width: 100%;
     background-color: gray;
@@ -48,6 +48,7 @@ h3
     left: 0;
     margin: 0;
     width: 100%;
+    background-color: lightblue;
 }
 
 #tittel
@@ -87,6 +88,12 @@ h3
     top: 50px;
 }
 
+<<<<<<< HEAD
+#divTestShizz:hover
+{
+     display: block;
+}
+=======
 
 #tittel:hover + #artikkelBoks
 {   
@@ -119,3 +126,4 @@ h3
 
 
 
+>>>>>>> e7a5f86cb7c7b76a5adffcd1031dad25652fc0f2
