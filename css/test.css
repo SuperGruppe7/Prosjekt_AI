@@ -1,0 +1,73 @@
+#container_test
+{
+    position: relative;
+    margin-left: 20%;
+    margin-right: 20%;
+    padding: 10px;
+}
+
+/* Div for spørsmålene*/
+.question_container
+{
+    position: relative;
+    margin: auto;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.question_container h3
+{
+    font-size: 30px;
+    font-family: monospace;
+    color: darkslategrey;
+    margin: 5px;
+}
+
+/*Klasse knapp korrekt svar*/
+.button_correct
+{
+    position: relative;
+    background-color: lightgray;
+    text-align: center;
+    align-self: center;
+    display: block;
+    padding: 5px;
+    font-family: monospace;
+    font-size: 24px;
+    width: 80%;
+    margin: auto;
+    margin-top: 3px;
+    border: 1px solid black;
+    transition: background-color 0.5s;
+}
+
+/* På trykk */
+.button_correct:active
+{
+    background-color: greenyellow;
+    text-align: center;
+}
+
+/*Klasse knapp feil svar*/
+.button_wrong
+{
+    position: relative;
+    background-color: lightgray;
+    text-align: center;
+    display: block;
+    padding: 5px;
+    font-family: monospace;
+    font-size: 24px;
+    width: 80%;
+    transition: background-color 0.5s;
+    margin: auto;
+    margin-top: 3px;    
+    border: 1px solid black;
+}
+
+/*På trykk*/
+.button_wrong:active
+{
+    background-color: orangered;
+    text-align: center;
+}

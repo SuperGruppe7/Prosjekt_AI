@@ -40,9 +40,10 @@ h3
     left: 0;
     margin: 0;
     width: 100%;
+    background-color: lightblue;
 }
 
-#divTextTest
+#tittel
 {
     position: absolute;
     top: 100px;
@@ -52,22 +53,45 @@ h3
 }
 
 
-#divTestShizz
+#artikkelBoks
 {
     position: absolute;
-    display: none;
     background-color: red;
     height: 100px;
-    width: 100px;
-    left: 10px;
+    width: 0px;
+    left: 20px;
+    transition: all 1.5s ease-out 0s;
+    overflow: hidden;
 }
 
-#divTextTest:hover + #divTestShizz
-{
- display: block;
+
+#artikkel {
+    top: 0;
+    position: absolute;
+    transition: all 0s linear 0s
+    
 }
 
+<<<<<<< HEAD
 #divTestShizz:hover
 {
      display: block;
 }
+=======
+
+#tittel:hover + #artikkelBoks
+{   
+    width: 100px;
+}
+
+#artikkelBoks:hover
+{   
+    width: 100px;
+}
+
+
+
+
+
+
+>>>>>>> e7a5f86cb7c7b76a5adffcd1031dad25652fc0f2
