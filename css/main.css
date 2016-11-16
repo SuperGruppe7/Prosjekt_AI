@@ -213,28 +213,6 @@ a:hover, :active {
     width: 300px;
 }
 
-
-#HVEMVARVITITTEL{
-    position: absolute;
-    top: 8%;
-    left: 5%;
-    font-family: 'Arial Rounded MT Bold', sans-serif;
-    font-size: 50px;
-    color: #EBEBEB;
-    text-shadow: 2px 2px #101010;   
-}
-
-#HVEMVARVISHIZZLE{
-    position: absolute;
-    top: 0%;
-    width: 90%;
-    font-family: 'Arial Rounded MT Bold', sans-serif;
-    font-size: 27px;
-    color: #EBEBEB;
-    text-shadow: 2px 2px #101010; 
-    left: 5%;
-}
-
 #WhoArticle{
     position: relative;
     width: 306px;
