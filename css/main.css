@@ -12,13 +12,22 @@ h3
     margin: 0;
 }
 
-#header_container
+a:visited, :link {
+    color: #EBEBEB;
+    text-decoration: none;
+}
+a:hover, :active {
+    color: #BBBBBB;
+    text-decoration: none;
+}
+
+#headerContainer
 {
     /*Containeren header*/
     position: absolute;
     height: 100vh;
     width: 100%;
-    background-image: url("../img/terminate.png");
+    background-image: url("../img/Header/Header_Background.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;  
@@ -28,13 +37,34 @@ h3
     left: 0;    
 }
 
-#header_menu
+#robotBoks {
+    position: fixed;
+    width: 200px;
+    bottom: -50px;
+    right: 100px;
+}
+
+#headerContainerLink 
+{
+    position: relative;
+    margin: auto;
+    width: 100%;
+    height: 90%;
+    color: #EBEBEB;
+    font-size: 2em;
+    font-family: sans-serif;
+    text-align: center;
+    top: 10px;
+}
+
+
+#headerMenu
 {
     /* Menyen i headeren*/
-    position: fixed;
+    position: absolute;
     height: 60px;
     width: 100%;
-    background-color: gray;
+    background-color: #5C6D70;
     margin: 0;
     top: 0;
     left: 0;
