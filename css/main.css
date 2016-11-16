@@ -31,18 +31,18 @@ a:hover, :active {
     background-image: url("../img/Header/Header_Background.jpg");
     background-size: cover;
     background-repeat: no-repeat;
-    background-position: center center;  
-    background-color: bisque;
+    background-position: center center;
     margin: 0;
     top: 0;
     left: 0; 
+    
     
 }
 
 #robotBoks {
     position: fixed;
     width: 200px;
-    bottom: -50px;
+    bottom: -40px;
     right: 100px;
 }
 
@@ -73,7 +73,8 @@ a:hover, :active {
     left: 0;
 }
 
-#tittelContainer {
+#tittelContainer 
+{
     position: absolute;
     top: 30%;
     left: 5%;
@@ -83,7 +84,8 @@ a:hover, :active {
     text-shadow: 2px 2px #101010;   
 }
 
-#beskrivelseContainer {
+#beskrivelseContainer 
+{
     position: absolute;
     top: 50%;
     width: 40%;
@@ -103,6 +105,14 @@ a:hover, :active {
     margin: 0;
     width: 100%;
     background-color: #A37774;
+}
+
+#timeline {
+    position: absolute;
+    width: 50px;
+    height: 300vh;
+    right: 48%;
+    background-color: #484A47;
 }
 
 #tittel
@@ -135,7 +145,8 @@ a:hover, :active {
     transition: all 0s linear 0s
 }
 
-#artikkel {
+#artikkel
+{
     width: 300px;
     height: 300px;
     position: absolute;

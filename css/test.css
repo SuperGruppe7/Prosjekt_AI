@@ -23,6 +23,12 @@
     margin: 5px;
 }
 
+.question_container a:hover, :active, :link, :visited
+{
+    color: black;
+}
+
+
 /*Klasse knapp korrekt svar*/
 .button_correct
 {
