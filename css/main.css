@@ -24,7 +24,7 @@ h3
 #header_menu
 {
     /* Menyen i headeren*/
-    position: absolute;
+    position: fixed;
     height: 60px;
     width: 100%;
     background-color: gray;
@@ -71,6 +71,3 @@ h3
 {
      display: block;
 }
-
-
-
