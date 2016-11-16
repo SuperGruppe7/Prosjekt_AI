@@ -1,0 +1,58 @@
+#container_test
+{
+    position: relative;
+    margin-left: 20%;
+    margin-right: 20%;
+    padding: 10px;
+}
+
+.question_container
+{
+    position: relative;
+    margin: auto;
+}
+
+.button_correct
+{
+    position: relative;
+    background-color: lightgray;
+    text-align: center;
+    align-self: center;
+    display: block;
+    padding: 5px;
+    font-family: monospace;
+    font-size: 24px;
+    width: 80%;
+    transition: background-color 0.5s;
+    margin: auto;
+    margin-top: 3px;
+    border: 1px solid black;
+}
+
+.button_correct:active
+{
+    background-color: greenyellow;
+    text-align: center;
+}
+
+.button_wrong
+{
+    position: relative;
+    background-color: lightgray;
+    text-align: center;
+    display: block;
+    padding: 5px;
+    font-family: monospace;
+    font-size: 24px;
+    width: 80%;
+    transition: background-color 0.5s;
+    margin: auto;
+    margin-top: 3px;    
+    border: 1px solid black;
+}
+
+.button_wrong:active
+{
+    background-color: orangered;
+    text-align: center;
+}
