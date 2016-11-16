@@ -25,11 +25,11 @@ h3
 {
     /* Menyen i headeren*/
     position: absolute;
-    height:60px;
+    height: 60px;
     width: 100%;
     background-color: gray;
     margin: 0;
-    top:0;
+    top: 0;
     left: 0;
 }
 
@@ -39,4 +39,38 @@ h3
     top: 100vh;
     left: 0;
     margin: 0;
+    width: 100%;
 }
+
+#divTextTest
+{
+    position: absolute;
+    top: 100px;
+    left: 0;
+    margin: 0;
+    background-color: aqua;
+}
+
+
+#divTestShizz
+{
+    position: absolute;
+    display: none;
+    background-color: red;
+    height: 100px;
+    width: 100px;
+    left: 10px;
+}
+
+#divTextTest:hover + #divTestShizz
+{
+ display: block;
+}
+
+#divTestShizz:hover
+{
+     display: block;
+}
+
+
+
