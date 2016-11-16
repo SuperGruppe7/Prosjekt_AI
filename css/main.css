@@ -185,3 +185,48 @@ a:hover, :active {
     width: 300px;
 }
 
+
+#HVEMVARVITITTEL{
+    position: absolute;
+    top: 8%;
+    left: 5%;
+    font-family: 'Arial Rounded MT Bold', sans-serif;
+    font-size: 50px;
+    color: #EBEBEB;
+    text-shadow: 2px 2px #101010;   
+}
+
+#HVEMVARVISHIZZLE{
+    position: absolute;
+    top: 15%;
+    width: 90%;
+    font-family: 'Arial Rounded MT Bold', sans-serif;
+    font-size: 27px;
+    color: #EBEBEB;
+    text-shadow: 2px 2px #101010; 
+    left: 5%;
+}
+
+#WhoArticle{
+    position: relative;
+    width: 306px;
+    height: 200px;
+    float: left;
+    margin-right: 40px;
+    margin-bottom: 40px;
+    background-color: #E0AC9D;
+    padding: 10px;
+    border: 1px solid rgb(10, 100, 150);
+    left: 2%; 
+    top: 500%;/*?????*/
+    border: 5px solid rgb(50, 100, 150);
+    opacity: 0.65;
+    
+}
+
+#ArticleContainer{
+    position: relative; 
+    height: ;
+    width: 1200px;
+    top: 450%;
+}
