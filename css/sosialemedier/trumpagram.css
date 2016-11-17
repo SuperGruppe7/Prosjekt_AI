@@ -42,7 +42,7 @@ body
     margin-bottom: 15px;
 }
 
-.postUserImage
+.postUserImage 
 {
     position: absolute;
     top: 10px;
@@ -52,6 +52,12 @@ body
     border: 1px solid black;
     border-radius: 600px;
     overflow: hidden;
+}
+
+.postUserImage img
+{
+    height: 100%;
+    width: 100%;
 }
 
 .postUsername
@@ -75,8 +81,8 @@ body
 
 .postImage img
 {
-     width: 100%;
-    height: 100%;
+     max-width: 100%;
+    max-height: 100%;
     margin: auto;
 }
 
