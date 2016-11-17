@@ -60,16 +60,18 @@ Pastel pink - #E0AC9D
 
 #artikkelBoks {
     position: absolute;
-    background-color: deeppink;
-    height: 700px;
-    width: 0px;
-    left: 600px;
-    transition: all 1.5s ease-out 0s;
+    background: #E88873;
+    top: 140px;
+    height: 510px;
+    width: 0;
+    left: 700px;
+    transition: all 1s ease-out 0s;
     overflow: hidden;
 }
 
 
 .artikkelTittel {
+    text-align: center;
     top: 0;
     width: 300px;
     height: 300px;
@@ -84,15 +86,15 @@ Pastel pink - #E0AC9D
     top: 50px;
 }
 
-#title:hover + #artikkelBoks
+#title1:hover + #artikkelBoks
 {   
     
-    width: 300px;
+    width: 500px;
 }
 
 #artikkelBoks:hover
 {   
-    width: 300px;
+    width: 500px;
 }
 
 
