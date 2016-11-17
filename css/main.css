@@ -92,7 +92,7 @@ a:hover, :active {
     font-family: 'Arial Rounded MT Bold', sans-serif;
     font-size: 27px;
     color: #EBEBEB;
-    text-shadow: 0px 0px #101010; 
+    text-shadow: 1px 1px 1px 1px #101010; 
     left: 5%;
 }
 
@@ -105,53 +105,6 @@ a:hover, :active {
     margin: 0;
     width: 100%;
     background-color: #A37774;
-}
-
-#timeline {
-    margin: auto;
-    width: 50px;
-    top: 100px;
-    height: 90%;
-    position: relative;
-    background-color: #484A47;
-}
-
-#tittel
-{
-    position: absolute;
-    left: 660px;
-    top: 50px;
-    margin: 0;
-    background-color: forestgreen;
-}
-
-
-#artikkelBoks
-{
-    position: absolute;
-    background-color: deeppink;
-    height: 300px;
-    width: 0px;
-    left: 600px;
-    transition: all 1.5s ease-out 0s;
-    overflow: hidden;
-}
-
-
-#artikkelTittel {
-    top: 0;
-    width: 300px;
-    height: 300px;
-    position: absolute;
-    transition: all 0s linear 0s
-}
-
-#artikkel
-{
-    width: 300px;
-    height: 300px;
-    position: absolute;
-    top: 50px;
 }
 
 .colorBox{
@@ -182,59 +135,4 @@ a:hover, :active {
 }
 
 
-#divTestShizz:hover
-{
-     display: block;
-}
 
-#tittel:hover + #artikkelBoks
-{   
-    
-    width: 300px;
-}
-
-#artikkelBoks:hover
-{   
-    width: 300px;
-}
-
-#artikkelBilde {
-    position: absolute;
-    width: 
-}
-
-#tittel:hover + #artikkelBoks
-{       
-    width: 300px;
-}
-
-#artikkelBoks:hover
-{   
-    width: 300px;
-}
-
-#whoArticle{
-    position: relative;
-    width: 306px;
-    height: 200px;
-    float: left;
-    margin-right: 40px;
-    margin-bottom: 40px;
-    background-color: #E0AC9D;
-    padding: 10px;
-    border: 1px solid rgb(10, 100, 150);
-    left: 2%; 
-    top: 0;/*?????*/
-    border: 5px solid rgb(50, 100, 150);
-    opacity: 0.65;
-    
-}
-
-#articleContainer{
-    position: relative; 
-    height: ;
-    width: 1200px;
-    top: 10%;
-    margin-left: auto;
-    margin-right: auto;
-}
