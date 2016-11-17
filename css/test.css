@@ -67,6 +67,7 @@
     background-color: #5C6D70;
     border-radius: 50px;
     margin-top: 50px;
+    overflow: hidden;
 }
 
 #resultContainer h1, h3
