@@ -66,6 +66,7 @@
     height: 350px;
     background-color: #5C6D70;
     border-radius: 50px;
+    margin-top: 50px;
 }
 
 #resultContainer h1, h3
@@ -94,13 +95,19 @@
 
 #resultTrump:hover + #resultText
 {
-    position: absolute;
-    bottom: 50px;
-    right: 10px;
-    width: 250px;
-    height: 250px;
-    margin: 0;  
+    visibility: visible;
+    opacity: 1;
 }
 
 #resultText
-{}
+{
+    position: absolute;
+    width: 40%;
+    color: white;
+    font-family: 'Arial Rounded MT Bold', sans-serif;
+    left: 20px;
+    top 40%;
+    visibility: hidden;
+    opacity: 0;
+    transition:  visibility 1s ease-in-out, opacity 1s ease-in-out; 
+}
