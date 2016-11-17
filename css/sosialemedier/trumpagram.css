@@ -1,0 +1,21 @@
+body
+{
+    background: #FAFAFA;
+}
+
+#headerContainer
+{
+    position: absolute;
+    margin: 0;
+    top: 0;
+    left: 0;
+    background: #FEFEFE;
+    border-bottom: 1px solid grey;
+    width: 100%;
+    height: 80px;
+}
+
+#bodyContainer
+{
+    
+}
