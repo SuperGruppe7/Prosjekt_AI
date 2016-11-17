@@ -1,4 +1,4 @@
-#container_test
+#containerTest
 {
     position: relative;
     margin-left: 20%;
@@ -8,7 +8,7 @@
 }
 
 /* Div for spørsmålene*/
-.question_container
+.questionContainer
 {
     position: relative;
     margin: auto;
@@ -16,7 +16,7 @@
     text-align: center;
 }
 
-.question_container h3
+.questionContainer h3
 {
     font-size: 30px;
     font-family: 'Arial Rounded MT Bold', sans-serif;
@@ -24,14 +24,13 @@
     margin: 5px;
 }
 
-.question_container a:hover, :active, :link, :visited
+.questionContainer a:hover, :active, :link, :visited
 {
     color: black;
 }
 
-
 /*Klasse knapp korrekt svar*/
-.button_correct
+.buttonCorrect
 {
     position: relative;
     background-color: lightgray;
@@ -49,14 +48,14 @@
 }
 
 /* På trykk */
-.button_correct:active
+.buttonCorrect:active
 {
     background-color: greenyellow;
     text-align: center;
 }
 
 /*Klasse knapp feil svar*/
-.button_wrong
+.buttonWrong
 {
     position: relative;
     background-color: lightgray;
@@ -73,10 +72,17 @@
 }
 
 /*På trykk*/
-.button_wrong:active
+.buttonWrong:active
 {
     background-color: orangered;
     text-align: center;
+}
+
+#resultCorrect
+{
+    position: relative;
+    font-family: 'Arial Rounded MT Bold', sans-serif;
+    margin-top: 30px;
 }
 
 
