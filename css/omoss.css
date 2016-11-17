@@ -4,15 +4,14 @@ a:hover, :active, :link, :visited {
 
 #whoArticle{
     position: relative;
-    width: 306px;
-    height: 200px;
+    width: 400px;
+    height: 400px;
     float: left;
     margin-right: 40px;
     margin-bottom: 40px;
     background-color: #E0AC9D;
     padding: 10px;
     left: 2%; 
-    top: 0;/*?????*/
     border: 5px solid #484A47;
     opacity: 0.65;
     
@@ -22,8 +21,22 @@ a:hover, :active, :link, :visited {
 #articleContainer{
     position: relative; 
     height: ;
-    width: 1200px;
+    width: 1400px;
     top: 10%;
     margin-left: auto;
-    margin-right: auto;
+    margin-right: ;
+  
+}
+
+#whoStory {
+    position: absolute;
+    bottom: 0;
+    color: #EBEBEB; /*??Riktig farge??*/
+    font-size: 16px;
+    font-family: 'Arial Roundet MT Bold', sans-serif;
+}
+
+#whoPicture {
+    position: absolute;
+    height: 50%;
 }
