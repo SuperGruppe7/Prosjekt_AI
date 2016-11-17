@@ -39,6 +39,7 @@ body
     height: 450px;
     border: 1px solid gray;
     background: white;
+    margin-bottom: 15px;
 }
 
 .postUserImage
@@ -56,12 +57,39 @@ body
 .postUsername
 {
     position: absolute;
-    top: 5px;
-    left: 5px;
-    width: 40px;
+    top: 20px;
+    left: 55px;
+    width: 150px;
     height: 40px;
-    border: 1px solid black;
-    border-radius: 600px;
     overflow: hidden;
+}
+
+.postImage
+{
+    position: absolute;
+    height: 80%;
+    width: 100%;
+    top: 60px;
+    left: 0;
+    overflow: hidden;
+}
+
+.postImage img
+{
+     width: 100%;
+    height: 100%;
+    margin: auto;
+}
+
+.postDescription
+{
+    position: absolute;
+    height: 5%;
+    padding: 3px;
+    width: 100%;
+    top: 95%;
+    left: 0;
+    overflow: hidden;
+    border-top: 1px solid grey;
 }
 
