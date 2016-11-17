@@ -67,11 +67,10 @@ body
 .postImage
 {
     position: absolute;
-    height: 80%;
+    height: 75%;
     width: 100%;
     top: 60px;
     left: 0;
-    overflow: hidden;
 }
 
 .postImage img
@@ -84,7 +83,7 @@ body
 .postDescription
 {
     position: absolute;
-    height: 5%;
+    height: 10%;
     padding: 3px;
     width: 100%;
     top: 95%;
