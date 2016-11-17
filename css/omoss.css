@@ -10,16 +10,16 @@ a:hover, :active, :link, :visited {
     background-color: #E0AC9D;
     padding: 20px;
     border: 5px solid #484A47;
-    opacity: 0.65;
-    margin-left: auto;
-    margin-right: auto;
+    opacity: 0.80;
+    margin: 15px;
+
     
     
 }
 
 #articleContainer{
     position: relative; 
-    width: 1400px;
+    width: 1440px;
     top: 10%;
     margin: auto;
   
