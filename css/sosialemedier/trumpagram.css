@@ -23,6 +23,12 @@ body
     font-family: monospace;
 }
 
+#headerContent h1, img
+{
+   margin: 0;
+    display: inline;
+}
+
 #bodyContainer
 {
     position: relative;
