@@ -42,7 +42,7 @@ a:hover, :active {
 #robotBoks {
     position: fixed;
     width: 200px;
-    bottom: -40px;
+    bottom: -20px;
     right: 280px;
 }
 
