@@ -4,6 +4,7 @@ Burnished brown - #A37774
 Middle red - #E88873
 Pastel pink - #E0AC9D
 */
+
 #timeline {
     margin: auto;
     width: 50px;
@@ -44,6 +45,8 @@ Pastel pink - #E0AC9D
 .title
 {
     position: absolute;
+    left: 660px;
+    top: 50px;
     left: 700px;
     margin: 0;
     color: #EBEBEB;
@@ -58,8 +61,7 @@ Pastel pink - #E0AC9D
 #artikkelBoks {
     position: absolute;
     background-color: deeppink;
-    height: 300px;
-    top: 50px;
+    height: 700px;
     width: 0px;
     left: 600px;
     transition: all 1.5s ease-out 0s;
@@ -82,7 +84,7 @@ Pastel pink - #E0AC9D
     top: 50px;
 }
 
-#title1:hover + #artikkelBoks
+#title:hover + #artikkelBoks
 {   
     
     width: 300px;
@@ -93,14 +95,4 @@ Pastel pink - #E0AC9D
     width: 300px;
 }
 
-
-#tittel:hover + #artikkelBoks
-{       
-    width: 300px;
-}
-
-#artikkelBoks:hover
-{   
-    width: 300px;
-}
 
