@@ -44,6 +44,7 @@ a:hover, :active {
     width: 200px;
     bottom: -20px;
     right: 280px;
+    z-index: -4;
 }
 
 #headerContainerLink 
@@ -98,6 +99,7 @@ a:hover, :active {
 
 #bodyContainer
 {
+    z-index: -3;
     position: absolute;
     top: 100vh;
     height: 300vh;
@@ -124,6 +126,7 @@ a:hover, :active {
 #box3 {
     background-color: #A37774;
     left: 40%;
+    z-index: -3;
 }
 #box4 {
     background-color: #E88873;
