@@ -12,6 +12,7 @@ a:hover, :active, :link, :visited {
     border: 5px solid #484A47;
     opacity: 0.80;
     margin: 15px;
+    overflow: hidden;
 
     
     
@@ -36,4 +37,12 @@ a:hover, :active, :link, :visited {
 #whoPicture {
     position: absolute;
     height: 50%;
+}
+
+#whoPicture:hover 
+{
+    transition: ease-in;
+    height: 500px; 
+    
+    
 }
