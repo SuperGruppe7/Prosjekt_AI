@@ -6,6 +6,7 @@ Pastel pink - #E0AC9D
 */
 
 #timeline {
+    z-index: -1;
     margin: auto;
     width: 50px;
     top: 100px;
@@ -47,7 +48,7 @@ Pastel pink - #E0AC9D
     position: absolute;
     left: 50px;
     width: 300px;
-    margin: 0;
+    margin: 100px;
     color: #EBEBEB;
     font: 20px 'Arial Rounded MT Bold', sans-serif;
 }
@@ -58,17 +59,29 @@ Pastel pink - #E0AC9D
 
 
 
-#artikkelBoks {
+.articleBox {
     position: absolute;
     background-color: #E88873;
-    height: 500px;
-    width: 0;
-    top: 40px;
-    left: 50px;
-    transition: border 1.5s ease-out 0s, width 1.5s ease-out 0s;
+    height: 430px;
+    width: 0px;
+    margin-left: 100px;
+    margin-right: 100px;
+    top: 80px;
+    left: -75px;
+    transition: all 1.5s linear 0s;
     overflow: hidden;
     border: 0px solid #484A47;
     border-radius: 3px;
+}
+
+
+
+#imgBox1 {  
+    width: 0px;
+    left: -600px;
+    background-image: url(../img/ArtikkelBilder/bil.jpg);
+    background-size:cover;
+    
 }
 
 
@@ -89,16 +102,17 @@ Pastel pink - #E0AC9D
     top: 50px;
 }
 
-#title1:hover + #artikkelBoks
-{   
+
+#title1:hover ~ #articleBox1 {
     border: 5px solid #484A47;
-    width: 600px;
+    width: 1200px;
+    margin-left: -550px;
+    margin-right: -550px;
 }
 
-#artikkelBoks:hover
-{   
-    width: 600px;
+#articleBox1 :hover {
     border: 5px solid #484A47;
+    width: 1200px;
+    margin-left: -550px;
+    margin-right: -550px;
 }
-
-
