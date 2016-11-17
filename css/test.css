@@ -29,8 +29,8 @@
     color: black;
 }
 
-/*Klasse knapp korrekt svar*/
-.buttonCorrect
+/* Knapp */
+.buttonCorrect, .buttonWrong
 {
     position: relative;
     background-color: lightgray;
@@ -51,38 +51,56 @@
 .buttonCorrect:active
 {
     background-color: greenyellow;
-    text-align: center;
-}
-
-/*Klasse knapp feil svar*/
-.buttonWrong
-{
-    position: relative;
-    background-color: lightgray;
-    text-align: center;
-    display: block;
-    padding: 5px;
-    font-family: 'Arial Rounded MT Bold', sans-serif;
-    font-size: 24px;
-    width: 80%;
-    transition: background-color 0.5s;
-    margin: auto;
-    margin-top: 3px;    
-    border: 1px solid black;
 }
 
 /*På trykk*/
 .buttonWrong:active
 {
     background-color: orangered;
-    text-align: center;
 }
 
-#resultCorrect
+#resultContainer
 {
     position: relative;
-    font-family: 'Arial Rounded MT Bold', sans-serif;
-    margin-top: 30px;
+    width: 100%;
+    height: 350px;
+    background-color: #5C6D70;
+    border-radius: 50px;
 }
 
+#resultContainer h1, h3
+{
+    text-align: center;
+    color: #EBEBEB;
+    font-family: 'Arial Rounded MT Bold', sans-serif;
+    display: block;
+    margin-bottom: 4px;
+}
 
+#resultContainer h3
+{
+    font-size: 12px;
+}
+
+#resultTrump
+{
+    position: absolute;
+    bottom: 50px;
+    right: 10px;
+    width: 250px;
+    height: 250px;
+    margin: 0;  
+}
+
+#resultTrump:hover + #resultText
+{
+    position: absolute;
+    bottom: 50px;
+    right: 10px;
+    width: 250px;
+    height: 250px;
+    margin: 0;  
+}
+
+#resultText
+{}
