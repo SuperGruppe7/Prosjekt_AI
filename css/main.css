@@ -81,7 +81,7 @@ a:hover, :active {
     font-family: 'Arial Rounded MT Bold', sans-serif;
     font-size: 50px;
     color: #EBEBEB;
-    text-shadow: 2px 2px #101010;   
+    text-shadow: 0px 0px #101010;   
 }
 
 #beskrivelseContainer 
@@ -92,7 +92,7 @@ a:hover, :active {
     font-family: 'Arial Rounded MT Bold', sans-serif;
     font-size: 27px;
     color: #EBEBEB;
-    text-shadow: 2px 2px #101010; 
+    text-shadow: 0px 0px #101010; 
     left: 5%;
 }
 
