@@ -15,7 +15,53 @@ body
     height: 80px;
 }
 
+#headerContent
+{
+    position: relative;
+    margin: auto;
+    text-align: center;
+    font-family: monospace;
+}
+
 #bodyContainer
 {
-    
+    position: relative;
+    top: 80px;
+    margin-left: 30%;
+    margin-right: 30%;
+    width: 40%;
 }
+
+.postContainer
+{
+    position: relative;
+    width: 95%;
+    height: 450px;
+    border: 1px solid gray;
+    background: white;
+}
+
+.postUserImage
+{
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    width: 40px;
+    height: 40px;
+    border: 1px solid black;
+    border-radius: 600px;
+    overflow: hidden;
+}
+
+.postUsername
+{
+    position: absolute;
+    top: 5px;
+    left: 5px;
+    width: 40px;
+    height: 40px;
+    border: 1px solid black;
+    border-radius: 600px;
+    overflow: hidden;
+}
+
