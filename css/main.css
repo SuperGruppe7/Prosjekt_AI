@@ -65,6 +65,7 @@ a:hover, :active {
     text-align: center;
     top: 10px;
     text-transform: uppercase;
+    
 }
 
 .buttonHeader
@@ -101,6 +102,8 @@ a:hover, :active {
     margin: 0;
     top: 0;
     left: 0;
+    border-bottom: 2px solid #A37774;
+    
 }
 
 #tittelContainer 
@@ -171,6 +174,7 @@ footer {
     background: #000;
     position: fixed;
     bottom: 0;
+    border-top: 1px solid #fff;
 }
 
 
@@ -178,10 +182,12 @@ footer {
     width: 100px;
     height: 100px;
     position: relative;
-    top: -50px;
+    top: -51px;
     margin: auto;
     transform: rotate(45deg);
     background-color: #000;
+    border-top: 1px solid #fff;
+    border-left: 1px solid #fff;
     
 }
 
