@@ -55,20 +55,15 @@ Pastel pink - #E0AC9D
     width: 80%;
     margin: auto;
     margin-top: 3px;
-<<<<<<< HEAD
     border: 1px solid black;
     transition: all 0.5s linear;
-=======
     border: 1px solid #484A47;
     transition: background-color 0.5s;
->>>>>>> origin/master
 }
 
-
-}
 
 /* På trykk */
-.buttonCorrect :active
+.buttonCorrect:active
 {
     background-color: greenyellow;
 }
