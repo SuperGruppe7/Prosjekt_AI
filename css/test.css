@@ -45,13 +45,16 @@
     margin-top: 3px;
     border: 1px solid black;
     transition: all 0.5s linear;
+<<<<<<< HEAD
+=======
+    border: 1px solid #484A47;
+    transition: background-color 0.5s;
+>>>>>>> origin/master
 }
 
-
-}
 
 /* På trykk */
-.buttonCorrect :active
+.buttonCorrect:active
 {
     background-color: greenyellow;
 }
