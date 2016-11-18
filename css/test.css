@@ -1,3 +1,10 @@
+/*Outer Space - #484A47
+Cadet - #5C6D70
+Burnished brown - #A37774
+Middle red - #E88873
+Pastel pink - #E0AC9D
+*/
+
 #containerTest
 {
     position: relative;
@@ -24,26 +31,31 @@
     margin: 5px;
 }
 
-.questionContainer a:hover, :active, :link, :visited
+.questionContainer a:hover, :link, :visited
 {
-    color: black;
+    /*background-color: #5C6D70;*/
+    color: #EBEBEB;
+    width: 82%;
+    transition: 0.5s;
+    border-radius: 5px;
 }
 
 /* Knapp */
 .buttonCorrect, .buttonWrong
 {
     position: relative;
-    background-color: lightgray;
+    background-color: #5C6D70;
     text-align: center;
     align-self: center;
     display: block;
     padding: 5px;
     font-family: 'Arial Rounded MT Bold', sans-serif;
     font-size: 24px;
+    color: #EBEBEB;
     width: 80%;
     margin: auto;
     margin-top: 3px;
-    border: 1px solid black;
+    border: 1px solid #484A47;
     transition: background-color 0.5s;
 }
 
