@@ -62,7 +62,7 @@ a:hover, :active {
     text-transform: uppercase;
 }
 
-#hjem
+#hjemButton
 {
     background-color: #A37774;
     top: 10px;
@@ -79,18 +79,18 @@ a:hover, :active {
     cursor: pointer;
 }
 
-#hjem {
+#hjemButton {
     background-color: #5C6D70;
     color: #EBEBEB;
     border: 2px solid #A37774;
 }
 
-#hjem:hover {
+#hjemButton:hover {
     background-color: #A37774;
     color: white;
 }
 
-#omOss
+#omOssButton
 {
     background-color: #A37774;
     top: 10px;
@@ -107,18 +107,18 @@ a:hover, :active {
     cursor: pointer;
 }
 
-#omOss {
+#omOssButton {
     background-color: #5C6D70;
     color: #EBEBEB;
     border: 2px solid #A37774;
 }
 
-#omOss:hover {
+#omOssButton:hover {
     background-color: #A37774;
     color: white;
 }
 
-#test
+#testButton
 {
     background-color: #A37774;
     top: 10px;
@@ -135,13 +135,13 @@ a:hover, :active {
     cursor: pointer;
 }
 
-#test {
+#testButton {
     background-color: #5C6D70;
     color: #EBEBEB;
     border: 2px solid #A37774;
 }
 
-#test:hover {
+#testButton:hover {
     background-color: #A37774;
     color: white;
 }
