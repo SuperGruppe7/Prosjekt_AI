@@ -9,7 +9,7 @@ Pastel pink - #E0AC9D
     margin: auto;
     width: 50px;
     top: 100px;
-    height: 90%;
+    height: 95%;
     position: relative;
     background-color: #484A47;
 }
@@ -25,12 +25,16 @@ Pastel pink - #E0AC9D
     text-align: center;
 }
 
-#timelineBox1{
+#timelineBox1 {
     top: -10px;
 }
 
-#timelineBox2{
+#timelineBox2 {
     top: 500px;
+}
+
+#timelineBox3 {
+    top: 1010px;
 }
 
 .yearBox {

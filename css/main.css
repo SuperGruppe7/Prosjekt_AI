@@ -47,7 +47,6 @@ a:hover, :active {
     width: 200px;
     bottom: -20px;
     right: 280px;
-    z-index: -4;
 }
 
 #headerContainerLink 
@@ -180,16 +179,14 @@ a:hover, :active {
     font-family: 'Arial Rounded MT Bold', sans-serif;
     font-size: 27px;
     color: #EBEBEB;
-    text-shadow: 1px 1px 1px 1px #101010; 
     left: 5%;
 }
 
 #bodyContainer
 {
-    z-index: -3;
     position: absolute;
     top: 100vh;
-    height: 300vh;
+    height: 500vh;
     left: 0;
     margin: 0;
     width: 100%;
