@@ -25,6 +25,10 @@ Pastel pink - #E0AC9D
     text-align: center;
 }
 
+#bodyContainer {
+    height: 5500px;
+}
+
 #timelineBox1 {
     top: -10px;
 }
