@@ -1,3 +1,87 @@
+#hjemButton
+{
+    background-color: #A37774;
+    top: 10px;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+#hjemButton {
+    background-color: #5C6D70;
+    color: #EBEBEB;
+    border: 2px solid #A37774;
+}
+
+#hjemButton:hover {
+    background-color: #A37774;
+    color: white;
+}
+
+#omOssButton
+{
+    background-color: #A37774;
+    top: 10px;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+#omOssButton {
+    background-color: #5C6D70;
+    color: #EBEBEB;
+    border: 2px solid #A37774;
+}
+
+#omOssButton:hover {
+    background-color: #A37774;
+    color: white;
+}
+
+#testButton
+{
+    background-color: #A37774;
+    top: 10px;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+#testButton {
+    background-color: #5C6D70;
+    color: #EBEBEB;
+    border: 2px solid #A37774;
+}
+
+#testButton:hover {
+    background-color: #A37774;
+    color: white;
+}
+
 #containerTest
 {
     position: relative;
