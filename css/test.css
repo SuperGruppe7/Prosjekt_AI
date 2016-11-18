@@ -44,8 +44,7 @@
     margin: auto;
     margin-top: 3px;
     border: 1px solid black;
-    transition: all 0.5s linear;
-
+    transition: all 0.5s ease-in-out linear;
     border: 1px solid #484A47;
     transition: background-color 0.5s;
     border: 1px solid #484A47;
@@ -68,6 +67,9 @@
 
 /* Hover */
 
+.buttonAnswer:hover{
+    transform: scale(1.1);
+}
 
 
 #resultContainer

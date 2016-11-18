@@ -46,6 +46,11 @@ a:hover, :active {
     width: 200px;
     bottom: -20px;
     right: 280px;
+    transition: all .3s ease-in-out;
+}
+
+#robotBoks:hover{
+    transform: scale(1.1);
 }
 
 #headerContainerLink 
