@@ -20,7 +20,7 @@ body
     position: relative;
     margin: auto;
     text-align: center;
-    font-family: monospace;
+    font-family: 'Gloria Hallelujah', cursive;
 }
 
 #headerContent h1, img
@@ -64,6 +64,11 @@ body
 {
     height: 100%;
     width: 100%;
+}
+
+.postUsername, .postPublished, .postDescription
+{
+    font-family: 'Antic', sans-serif;
 }
 
 .postUsername
