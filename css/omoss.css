@@ -19,11 +19,11 @@ a:hover, :active, :link, :visited {
 }
 
 #articleContainer{
-    position: relative; 
+    position: absolute; 
     width: 1440px;
     top: 10%;
-    margin: auto;
-  
+    left: 15%;
+    
 }
 
 #whoStory {
@@ -41,8 +41,8 @@ a:hover, :active, :link, :visited {
 
 #whoPicture:hover 
 {
-    transition: ease-in;
+    transition: ease-in-out;
     height: 500px; 
     
     
-}
+} 

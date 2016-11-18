@@ -10,7 +10,7 @@
 /* Div for spørsmålene*/
 .questionContainer
 {
-    position: relative;
+    position: relative; 
     margin: auto;   
     margin-bottom: 20px;
     text-align: center;
@@ -45,15 +45,11 @@
     margin-top: 3px;
     border: 1px solid black;
     transition: all 0.5s linear;
-<<<<<<< HEAD
+
     border: 1px solid #484A47;
     transition: background-color 0.5s;
-=======
-<<<<<<< HEAD
-=======
     border: 1px solid #484A47;
     transition: background-color 0.5s;
->>>>>>> origin/master
 }
 
 
@@ -61,7 +57,6 @@
 .buttonCorrect:active
 {
     background-color: greenyellow;
->>>>>>> origin/master
 }
 
 /*På trykk*/
@@ -69,6 +64,11 @@
 {
     background-color: #E0AC9D;
 }
+
+
+/* Hover */
+
+
 
 #resultContainer
 {
