@@ -186,7 +186,7 @@ a:hover, :active {
 {
     position: absolute;
     top: 100vh;
-    height: 500vh;
+    height: 5500px;
     left: 0;
     margin: 0;
     width: 100%;
@@ -242,14 +242,4 @@ footer {
     
 }
 
-#timelineBox4 {
-    top: 1510px;
-}
 
-#timelineBox5 {
-    top: 2010px;
-}
-
-#timelineBox6 {
-    top: 2510px;
-}
