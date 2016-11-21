@@ -79,7 +79,7 @@ Pastel pink - #E0AC9D
 }
 
 .title
-{
+{   
     position: absolute;
     left: 0px;
     width: 300px;
@@ -92,12 +92,18 @@ Pastel pink - #E0AC9D
     top: 0px;
 }
 
+#title2 {
+    top: 50px;
+    left: -300px;
+}
+
 
 
 .articleBox {
     position: absolute;
     background-color: #E88873;
     height: 430px;
+    z-index: 0;
     width: 0;
     top: 80px;
     left: 25px;
@@ -118,11 +124,15 @@ Pastel pink - #E0AC9D
     overflow: hidden;
     border: 0px solid #484A47;
     border-radius: 3px;
+    background-size: cover;
 }
 
 #imgBox1 {
     background-image: url(../img/ArtikkelBilder/bil.jpg);
-    background-size: cover;
+    
+}
+#imgBox2 {
+    background-image: url(../img/ArtikkelBilder/Alan%20Turing.jpg);
 }
 
 .artikkelTittel {
@@ -148,6 +158,17 @@ Pastel pink - #E0AC9D
     cursor: pointer;
 }
 #title1:hover ~ #imgBox1 {
+    border: 5px solid #484A47;
+    width: 600px;
+    cursor: pointer;
+}
+
+#title2:hover + #articleBox2 {
+    border: 5px solid #484A47;
+    width: 600px;
+    cursor: pointer;
+}
+#title2:hover ~ #imgBox2 {
     border: 5px solid #484A47;
     width: 600px;
     cursor: pointer;
