@@ -171,10 +171,10 @@ a:hover, :active {
 footer {
     width: 100%;
     height: 6%;
-    background: #000;
+    background: #5C6D70;
     position: fixed;
     bottom: 0;
-    border-top: 1px solid #fff;
+    border-top: 1px solid #A37774;
 }
 
 
@@ -185,9 +185,9 @@ footer {
     top: -51px;
     margin: auto;
     transform: rotate(45deg);
-    background-color: #000;
-    border-top: 1px solid #fff;
-    border-left: 1px solid #fff;
+    background-color: #5C6D70;
+    border-top: 1px solid #A37774;
+    border-left: 1px solid #A37774;
     
 }
 
