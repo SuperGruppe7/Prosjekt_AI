@@ -44,7 +44,7 @@
     width: 80%;
     margin: auto;
     margin-top: 3px;
-    border: 1px solid black;
+    border: 1px solid #484A47;
     transition: all 0.5s ease-in-out;
 }
 
@@ -70,6 +70,7 @@
     background-color: #5C6D70;
     border-radius: 50px;
     margin-top: 50px;
+    border: 1px solid #484A47;
 }
 
 #resultContainer h1, h3
