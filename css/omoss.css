@@ -27,7 +27,7 @@ a:hover, :active, :link, :visited {
     bottom: 0;
     color: #EBEBEB; /*??Riktig farge??*/
     font-size: 16px;
-    font-family: 'Arial Roundet MT Bold', sans-serif;
+    font-family: 'Arial Rounded MT Bold', sans-serif;
 }
 
 #whoPicture {
@@ -41,3 +41,25 @@ a:hover, :active, :link, :visited {
     height: 300px;
     
 } 
+#whoName {
+    position: absolute;
+    top: 0;
+    margin-left: 60%;
+    font-family: 'Arial Rounded MT Bold', sans-serif;
+    
+}
+
+#whoDob {
+    position: absolute;
+    top: 7%;
+    margin-left: 60%;
+    font-family: 'Arial Rounded MT Bold', sans-serif;
+    
+}
+
+#whoDod {
+    position: absolute;
+    top: 14%;
+    margin-left: 60%;
+    font-family: 'Arial Rounded MT Bold', sans-serif;
+}
