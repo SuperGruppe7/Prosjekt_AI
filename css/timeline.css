@@ -12,7 +12,7 @@ Pastel pink - #E0AC9D
     height: 98%;
     position: relative;
     background-color: #484A47;
-    z-index: -8;
+    z-index: -9;
 }
 
 .timelineBox {
@@ -24,7 +24,7 @@ Pastel pink - #E0AC9D
     transform: rotate(45deg);
     margin: auto;
     text-align: center;
-    border-radius: 5px;
+    border-radius: 10px;
 }
 
 /* Timelineårstallbokser posisjoner*/
@@ -85,14 +85,17 @@ Pastel pink - #E0AC9D
 
 .title
 {   
-    padding: 20px;
+    padding: 10px;
     position: absolute;
     left: 0px;
-    width: 300px;
     margin: 100px;
+    width: 300px;
     color: #EBEBEB;
     font: 20px 'Arial Rounded MT Bold', sans-serif;
     z-index: -8;
+    text-align: center;
+    border-bottom: 2px solid #5C6D70;
+    
 }
 
 .articleTitle {
@@ -147,6 +150,7 @@ Pastel pink - #E0AC9D
 
 /*Artikkel Start*/
 #title1 {
+    left: -50px;
     top: 0px;
 }
 
@@ -169,7 +173,7 @@ Pastel pink - #E0AC9D
 /*Artikkel Start*/
 #title2 {
     top: 150px;
-    left: -350px;
+    left: -420px;
 }
 
 #title2:hover ~ #articleBox2 {
@@ -191,6 +195,7 @@ Pastel pink - #E0AC9D
 /*Artikkel Start*/
 #title3 {
     top: 300px;
+    left: -50px;
 }
 #title3:hover + #articleBox3 {
     border: 1px solid #484A47;
@@ -211,7 +216,7 @@ Pastel pink - #E0AC9D
 /*Artikkel Start*/
 #title4 {
     top: 500px;
-    left: -300px;
+    left: -420px;
 }
 #articleBox4, #imgBox4 {
     top: 590px;
@@ -235,6 +240,7 @@ Pastel pink - #E0AC9D
 /*Artikkel Start*/
 #title5 {
     top: 600px;
+    left: -50px;
 }
 #articleBox5, #imgBox5 {
     top: 590px;
@@ -258,7 +264,7 @@ Pastel pink - #E0AC9D
 /*Artikkel Start*/
 #title6 {
     top: 800px;
-    left: -450px;
+    left: -420px;
     
 }
 #articleBox6, #imgBox6 {
