@@ -177,6 +177,21 @@ footer {
     border-top: 1px solid #484A47;
 }
 
+footer #footerSocialContainer
+{
+    position: absolute;
+    left: 10%;
+    bottom: 5px;
+    height: 32px;
+    width: 20%;
+}
+
+#footerSocial
+{
+    position: relative;
+    display: inline;
+}
+
 
 #topButton {
     width: 100px;
