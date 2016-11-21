@@ -27,6 +27,8 @@ Pastel pink - #E0AC9D
     border-radius: 5px;
 }
 
+/* Timelineårstallbokser posisjoner*/
+
 #bodyContainer {
     height: 5500px;
 }
@@ -70,6 +72,7 @@ Pastel pink - #E0AC9D
 #timelineBox10 {
     top: 4580px;
 }
+/* Timelineårstallbokser posisjoner*/
 
 .yearBox {
     position: absolute;
@@ -92,16 +95,25 @@ Pastel pink - #E0AC9D
     z-index: -8;
 }
 
-#title1 {
-    top: 0px;
+.artikkelTittel {
+    text-align: center;
+    top: 0;
+    width: 600px;
+    height: 510px;
+    position: absolute;
+    color: #EBEBEB;
 }
 
-#title2 {
+.artikkel { 
+    font-size: 3vh;
+    text-align: left;
+    width: 500px;
+    height: 500px;
+    left: 50px;
+    position: absolute;
     top: 50px;
-    left: -300px;
+    color: #EBEBEB;
 }
-
-
 
 .articleBox {
     font-family: 'Arial Rounded MT Bold', sans-serif;
@@ -133,34 +145,14 @@ Pastel pink - #E0AC9D
     border-radius: 5px;
 }
 
+/*Artikkel Start*/
+#title1 {
+    top: 0px;
+}
+
 #imgBox1 {
     background-image: url(../img/ArtikkelBilder/bil.jpg);
-    
 }
-#imgBox2 {
-    background-image: url(../img/ArtikkelBilder/Alan%20Turing.jpg);
-}
-
-.artikkelTittel {
-    text-align: center;
-    top: 0;
-    width: 600px;
-    height: 510px;
-    position: absolute;
-    color: #EBEBEB;
-}
-
-.artikkel { 
-    font-size: 3vh;
-    text-align: left;
-    width: 500px;
-    height: 500px;
-    left: 50px;
-    position: absolute;
-    top: 50px;
-    color: #EBEBEB;
-}
-
 
 #title1:hover + #articleBox1 {
     border: 1px solid #484A47;
@@ -172,7 +164,13 @@ Pastel pink - #E0AC9D
     width: 600px;
     cursor: pointer;
 }
+/*Artikkel Slutt*/
 
+/*Artikkel Start*/
+#title2 {
+    top: 50px;
+    left: -300px;
+}
 #title2:hover + #articleBox2 {
     border: 1px solid #484A47;
     width: 600px;
@@ -184,26 +182,41 @@ Pastel pink - #E0AC9D
     cursor: pointer;
 }
 
-#articleBox1 :hover #articleBox1 {
+#imgBox2 {
+    background-image: url(../img/ArtikkelBilder/Alan%20Turing.jpg);
+}
+/*Artikkel Slutt*/
+
+/*Artikkel Start*/
+#title3 {
+    top: 70px;
+    left: -300px;
+}
+#title3:hover + #articleBox3 {
+    border: 1px solid #484A47;
+    width: 600px;
+    cursor: pointer;
+}
+#title3:hover ~ #imgBox3 {
     border: 1px solid #484A47;
     width: 600px;
     cursor: pointer;
 }
 
-#articleBox1 :hover + #imgBox1 {
-    border: 1px solid #484A47;
-    width: 600px;
-    cursor: pointer;
+#articleBox3
+{
+    top: 510px;
 }
 
-#imgBox1 :hover + #articleBox1 {
-    border: 1px solid #484A47;
-    width: 600px;
-    cursor: pointer;
+#imgBox3
+{
+    top: 510px;
 }
 
-#imgBox1 :hover + #imgBox1 {
-    border: 1px solid #484A47;
-    width: 600px;
-    cursor: pointer;
+#imgBox3 {
+    background-image: url(../img/ArtikkelBilder/Alan%20Turing.jpg);
 }
+/*Artikkel Slutt*/
+
+
+
