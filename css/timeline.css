@@ -98,15 +98,31 @@ Pastel pink - #E0AC9D
     position: absolute;
     background-color: #E88873;
     height: 430px;
-    width: 0px;
-    margin-left: 50px;
-    margin-right: 50px;
+    width: 0;
     top: 80px;
-    left: -25px;
+    left: 25px;
     transition: all 1.5s linear 0s;
     overflow: hidden;
     border: 0px solid #484A47;
     border-radius: 3px;
+}
+
+.imgBox {
+    position: absolute;
+    background-color: #E88873;
+    height: 430px;
+    width: 0;
+    top: 80px;
+    right: 25px;
+    transition: all 1.5s linear 0s;
+    overflow: hidden;
+    border: 0px solid #484A47;
+    border-radius: 3px;
+}
+
+#imgBox1 {
+    background-image: url(../img/ArtikkelBilder/bil.jpg);
+    background-size: cover;
 }
 
 .artikkelTittel {
@@ -126,16 +142,37 @@ Pastel pink - #E0AC9D
 }
 
 
-#title1:hover ~ #articleBox1 {
+#title1:hover + #articleBox1 {
     border: 5px solid #484A47;
-    width: 1200px;
-    margin-left: -550px;
-    margin-right: -550px;
+    width: 600px;
+    cursor: pointer;
+}
+#title1:hover ~ #imgBox1 {
+    border: 5px solid #484A47;
+    width: 600px;
+    cursor: pointer;
 }
 
-#articleBox1 :hover {
+#articleBox1 :hover #articleBox1 {
     border: 5px solid #484A47;
-    width: 1200px;
-    margin-left: -550px;
-    margin-right: -550px;
+    width: 600px;
+    cursor: pointer;
+}
+
+#articleBox1 :hover + #imgBox1 {
+    border: 5px solid #484A47;
+    width: 600px;
+    cursor: pointer;
+}
+
+#imgBox1 :hover + #articleBox1 {
+    border: 5px solid #484A47;
+    width: 600px;
+    cursor: pointer;
+}
+
+#imgBox1 :hover + #imgBox1 {
+    border: 5px solid #484A47;
+    width: 600px;
+    cursor: pointer;
 }
