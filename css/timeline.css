@@ -24,6 +24,7 @@ Pastel pink - #E0AC9D
     transform: rotate(45deg);
     margin: auto;
     text-align: center;
+    border-radius: 5px;
 }
 
 #bodyContainer {
@@ -150,8 +151,8 @@ Pastel pink - #E0AC9D
 }
 
 .artikkel { 
-    
-    text-align: center;
+    font-size: 3vh;
+    text-align: left;
     width: 500px;
     height: 500px;
     left: 50px;
@@ -173,36 +174,36 @@ Pastel pink - #E0AC9D
 }
 
 #title2:hover + #articleBox2 {
-    border: 5px solid #484A47;
+    border: 1px solid #484A47;
     width: 600px;
     cursor: pointer;
 }
 #title2:hover ~ #imgBox2 {
-    border: 5px solid #484A47;
+    border: 1px solid #484A47;
     width: 600px;
     cursor: pointer;
 }
 
 #articleBox1 :hover #articleBox1 {
-    border: 5px solid #484A47;
+    border: 1px solid #484A47;
     width: 600px;
     cursor: pointer;
 }
 
 #articleBox1 :hover + #imgBox1 {
-    border: 5px solid #484A47;
+    border: 1px solid #484A47;
     width: 600px;
     cursor: pointer;
 }
 
 #imgBox1 :hover + #articleBox1 {
-    border: 5px solid #484A47;
+    border: 1px solid #484A47;
     width: 600px;
     cursor: pointer;
 }
 
 #imgBox1 :hover + #imgBox1 {
-    border: 5px solid #484A47;
+    border: 1px solid #484A47;
     width: 600px;
     cursor: pointer;
 }
