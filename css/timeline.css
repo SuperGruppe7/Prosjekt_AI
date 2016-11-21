@@ -103,8 +103,9 @@ Pastel pink - #E0AC9D
 
 
 .articleBox {
+    font-family: 'Arial Rounded MT Bold', sans-serif;
     position: absolute;
-    background-color: #E88873;
+    background-color: #484A47;
     height: 430px;
     z-index: 0;
     width: 0;
@@ -113,13 +114,13 @@ Pastel pink - #E0AC9D
     transition: all 1.5s linear 0s;
     overflow: hidden;
     border: 0px solid #484A47;
-    border-radius: 3px;
     z-index: -7;
+    border-radius: 5px;
 }
 
 .imgBox {
     position: absolute;
-    background-color: #E88873;
+    background-color: #484A47;
     height: 430px;
     width: 0;
     top: 80px;
@@ -127,8 +128,8 @@ Pastel pink - #E0AC9D
     transition: all 1.5s linear 0s;
     overflow: hidden;
     border: 0px solid #484A47;
-    border-radius: 3px;
     background-size: cover;
+    border-radius: 5px;
 }
 
 #imgBox1 {
@@ -145,6 +146,7 @@ Pastel pink - #E0AC9D
     width: 600px;
     height: 510px;
     position: absolute;
+    color: #EBEBEB;
 }
 
 .artikkel { 
@@ -155,16 +157,17 @@ Pastel pink - #E0AC9D
     left: 50px;
     position: absolute;
     top: 50px;
+    color: #EBEBEB;
 }
 
 
 #title1:hover + #articleBox1 {
-    border: 5px solid #484A47;
+    border: 1px solid #484A47;
     width: 600px;
     cursor: pointer;
 }
 #title1:hover ~ #imgBox1 {
-    border: 5px solid #484A47;
+    border: 1px solid #484A47;
     width: 600px;
     cursor: pointer;
 }
