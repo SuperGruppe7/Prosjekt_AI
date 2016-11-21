@@ -2,8 +2,8 @@ a:hover, :active, :link, :visited {
     color: black;
 }
 #articleContainer{
-    position: relative; 
-    width: 90%;
+    position: absolute; 
+    width: 76%;
     top: 10%;
     left: 15%;
     margin: auto;
