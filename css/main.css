@@ -88,6 +88,7 @@ a:hover, :active {
     background-color: #5C6D70;
     color: #EBEBEB;
     border: 2px solid #A37774;
+    border-radius: 5px;
 }
 
 .buttonHeader:hover {
