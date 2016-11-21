@@ -174,7 +174,7 @@ footer {
     background: #5C6D70;
     position: fixed;
     bottom: 0;
-    border-top: 1px solid #A37774;
+    border-top: 1px solid #484A47;
 }
 
 
@@ -186,8 +186,8 @@ footer {
     margin: auto;
     transform: rotate(45deg);
     background-color: #5C6D70;
-    border-top: 1px solid #A37774;
-    border-left: 1px solid #A37774;
+    border-top: 1px solid #484A47;
+    border-left: 1px solid #484A47;
     
 }
 
