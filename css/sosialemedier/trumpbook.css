@@ -81,6 +81,7 @@ btn{
 
 footer{
     font-size: 11px;
+    display: list-item;
 }
 
 footer #bottom{
