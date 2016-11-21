@@ -1,6 +1,7 @@
 a:hover, :active, :link, :visited {
     color: black;
 }
+
 #articleContainer{
     position: absolute; 
     width: 76%;
@@ -14,21 +15,13 @@ a:hover, :active, :link, :visited {
     width: 400px;
     height: 400px;
     float: left;
-    background-color: #E0AC9D;
+    background: #484A47;
     padding: 20px;
     border: 2px solid #484A47;
     opacity: 0.80;
     margin: 15px;
     overflow: hidden;
     border-radius: 30px;
-}
-
-#whoStory {
-    position: absolute;
-    bottom: 0;
-    color: #EBEBEB; /*??Riktig farge??*/
-    font-size: 16px;
-    font-family: 'Arial Rounded MT Bold', sans-serif;
 }
 
 #whoPicture {
@@ -44,25 +37,41 @@ a:hover, :active, :link, :visited {
 {
     height: 300px;
 } 
-#whoName {
+
+#whoReason {
+    top: 21%;
+    margin-left: 40%;
+    z-index: -1;
+}
+
+#whoDob, #whoDod, #whoName, #whoStory, #whoReason
+{
     position: absolute;
+    color: #EBEBEB;
+    font-family: 'Arial Rounded MT Bold', sans-serif;
+}
+
+#whoStory
+{
+    position: absolute;
+    font-size: 16px;
+    bottom: 0;
+}
+
+#whoName 
+{
     top: 0;
-    margin-left: 60%;
-    font-family: 'Arial Rounded MT Bold', sans-serif;
-    
+    right: 5%;
 }
 
-#whoDob {
-    position: absolute;
+#whoDob 
+{
     top: 7%;
-    margin-left: 60%;
-    font-family: 'Arial Rounded MT Bold', sans-serif;
-    
+    right: 5%;
 }
 
-#whoDod {
-    position: absolute;
+#whoDod 
+{
     top: 14%;
-    margin-left: 60%;
-    font-family: 'Arial Rounded MT Bold', sans-serif;
+    right: 5%;
 }
