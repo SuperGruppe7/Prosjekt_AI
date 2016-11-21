@@ -212,8 +212,6 @@ footer #footerSocialContainer
     width: 40%;
 }
 
-
-
 #footerSocial img
 {
     max-height: 100%;
@@ -237,7 +235,6 @@ footer #footerSocialContainer
     
 }
 
-
 .topText {
     font-family: 'Ariel Rounded MT Bold', sans-serif;   
     color: #EBEBEB;
@@ -245,10 +242,3 @@ footer #footerSocialContainer
     font-size: 25px;
 }
 
-#whoReason {
-     position: absolute;
-    top: 21%;
-    margin-left: 40%;
-    font-family: 'Arial Rounded MT Bold', sans-serif;
-    z-index: -1;
-}
