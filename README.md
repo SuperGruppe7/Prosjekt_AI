@@ -2,4 +2,4 @@
 SuperGruppe7s syke prosjekt
 
 
-http://imgur.com/a/HRDf6
+<img src="http://imgur.com/a/HRDf6">
