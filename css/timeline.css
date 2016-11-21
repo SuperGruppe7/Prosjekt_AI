@@ -95,7 +95,7 @@ Pastel pink - #E0AC9D
     z-index: -8;
 }
 
-.artikkelTittel {
+.articleTitle {
     text-align: center;
     top: 0;
     width: 600px;
@@ -104,7 +104,7 @@ Pastel pink - #E0AC9D
     color: #EBEBEB;
 }
 
-.artikkel { 
+.article { 
     font-size: 3vh;
     text-align: left;
     width: 500px;
@@ -131,10 +131,6 @@ Pastel pink - #E0AC9D
     border-radius: 5px;
 }
 
-#articleBox3, #articleBox4 {
-    top: 510px;
-}
-
 .imgBox {
     position: absolute;
     background-color: #484A47;
@@ -155,7 +151,7 @@ Pastel pink - #E0AC9D
 }
 
 #imgBox1 {
-    background-image: url(../img/ArtikkelBilder/bil.jpg);
+    background-image: url(../img/ArtikkelBilder/Alan%20Turing.jpg);
 }
 
 #title1:hover ~ #articleBox1 {
@@ -172,8 +168,8 @@ Pastel pink - #E0AC9D
 
 /*Artikkel Start*/
 #title2 {
-    top: 50px;
-    left: -300px;
+    top: 150px;
+    left: -350px;
 }
 
 #title2:hover ~ #articleBox2 {
@@ -188,14 +184,13 @@ Pastel pink - #E0AC9D
 }
 
 #imgBox2 {
-    background-image: url(../img/ArtikkelBilder/Alan%20Turing.jpg);
+    background-image: url(../img/ArtikkelBilder/Logic%20Theorist.jpg);
 }
 /*Artikkel Slutt*/
 
 /*Artikkel Start*/
 #title3 {
-    top: 100px;
-    left: -300px;
+    top: 300px;
 }
 #title3:hover + #articleBox3 {
     border: 1px solid #484A47;
@@ -208,23 +203,33 @@ Pastel pink - #E0AC9D
     cursor: pointer;
 }
 
-#articleBox3
-{
-    top: 510px;
-}
-
-#imgBox3
-{
-    top: 510px;
-}
-
 #imgBox3 {
-    background-image: url(../img/ArtikkelBilder/Alan%20Turing.jpg);
+    background-image: url(../img/ArtikkelBilder/LISP.png);
+}
+/*Artikkel Slutt*/
+
+/*Artikkel Start*/
+#title4 {
+    top: 500px;
+}
+#articleBox4, #imgBox4 {
+    top: 590px;
+}
+#title4:hover + #articleBox4 {
+    border: 1px solid #484A47;
+    width: 600px;
+    cursor: pointer;
+}
+#title4:hover ~ #imgBox4 {
+    border: 1px solid #484A47;
+    width: 600px;
+    cursor: pointer;
+}
+
+#imgBox4 {
+    background-image: url(../img/ArtikkelBilder/UNIMATE.jpg);
 }
 /*Artikkel Slutt*/
 
 
 
-=======
-    q
->>>>>>> origin/master
