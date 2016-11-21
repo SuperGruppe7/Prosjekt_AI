@@ -92,6 +92,10 @@ footer a{
     padding: 2px 0;
 }
 
+footer li{
+    list-style-type: none;
+}
+
 a:hover{}
 a:acktive{}
 a:visited{}
