@@ -1,6 +1,13 @@
 a:hover, :active, :link, :visited {
     color: black;
 }
+#articleContainer{
+    position: relative; 
+    width: 90%;
+    top: 10%;
+    left: 15%;
+    margin: auto;
+}
 
 #whoArticle{
     position: relative;
@@ -13,14 +20,6 @@ a:hover, :active, :link, :visited {
     opacity: 0.80;
     margin: 15px;
     overflow: hidden;
-}
-
-#articleContainer{
-    position: absolute; 
-    width: 1440px;
-    top: 10%;
-    left: 15%;
-    
 }
 
 #whoStory {
