@@ -34,12 +34,13 @@ a:hover, :active, :link, :visited {
     position: absolute;
     height: 50%;
     transition: all .2s ease-in-out;
+    
 }
 
 #whoPicture:hover 
 {
     height: 300px;
-    
+    opacity: 0.8;
 } 
 #whoName {
     position: absolute;

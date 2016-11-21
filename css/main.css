@@ -198,3 +198,11 @@ footer {
     transform: rotate(-45deg);
     font-size: 25px;
 }
+
+#whoReason {
+     position: absolute;
+    top: 21%;
+    margin-left: 40%;
+    font-family: 'Arial Rounded MT Bold', sans-serif;
+    z-index: -1;
+}
