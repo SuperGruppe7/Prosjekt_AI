@@ -93,6 +93,7 @@ Pastel pink - #E0AC9D
     color: #EBEBEB;
     font: 20px 'Arial Rounded MT Bold', sans-serif;
     z-index: -8;
+    background-color: red;
 }
 
 .articleTitle {
@@ -211,6 +212,7 @@ Pastel pink - #E0AC9D
 /*Artikkel Start*/
 #title4 {
     top: 500px;
+    left: -300px;
 }
 #articleBox4, #imgBox4 {
     top: 590px;
@@ -231,5 +233,52 @@ Pastel pink - #E0AC9D
 }
 /*Artikkel Slutt*/
 
+/*Artikkel Start*/
+#title5 {
+    top: 600px;
+}
+#articleBox5, #imgBox5 {
+    top: 590px;
+}
+#title5:hover + #articleBox5 {
+    border: 1px solid #484A47;
+    width: 600px;
+    cursor: pointer;
+}
+#title5:hover ~ #imgBox5 {
+    border: 1px solid #484A47;
+    width: 600px;
+    cursor: pointer;
+}
+
+#imgBox5 {
+    background-image: url(../img/ArtikkelBilder/DENDRAL.gif);
+}
+/*Artikkel Slutt*/
+
+/*Artikkel Start*/
+#title6 {
+    top: 800px;
+    left: -450px;
+    
+}
+#articleBox6, #imgBox6 {
+    top: 590px;
+}
+#title6:hover + #articleBox6 {
+    border: 1px solid #484A47;
+    width: 600px;
+    cursor: pointer;
+}
+#title6:hover ~ #imgBox6 {
+    border: 1px solid #484A47;
+    width: 600px;
+    cursor: pointer;
+}
+
+#imgBox6 {
+    background-image: url(../img/ArtikkelBilder/SHRDLU.jpg);
+}
+/*Artikkel Slutt*/
 
 
