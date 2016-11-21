@@ -46,6 +46,7 @@
     margin-top: 3px;
     border: 1px solid #484A47;
     transition: all 0.5s ease-in-out;
+    border-radius: 5px;
 }
 
 /*På trykk*/
@@ -58,7 +59,9 @@
 /* Hover */
 
 .buttonAnswer:hover{
-    transform: scale(1.1);
+    width: 83%;
+    transition: 1s;
+    border-radius: 10px;
 }
 
 
