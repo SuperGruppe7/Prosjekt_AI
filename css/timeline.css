@@ -131,6 +131,10 @@ Pastel pink - #E0AC9D
     border-radius: 5px;
 }
 
+#articleBox3, #articleBox4 {
+    top: 510px;
+}
+
 .imgBox {
     position: absolute;
     background-color: #484A47;
@@ -143,7 +147,7 @@ Pastel pink - #E0AC9D
     border: 0px solid #484A47;
     background-size: cover;
     border-radius: 5px;
-}
+}    
 
 /*Artikkel Start*/
 #title1 {
@@ -154,7 +158,7 @@ Pastel pink - #E0AC9D
     background-image: url(../img/ArtikkelBilder/bil.jpg);
 }
 
-#title1:hover + #articleBox1 {
+#title1:hover ~ #articleBox1 {
     border: 1px solid #484A47;
     width: 600px;
     cursor: pointer;
@@ -171,7 +175,8 @@ Pastel pink - #E0AC9D
     top: 50px;
     left: -300px;
 }
-#title2:hover + #articleBox2 {
+
+#title2:hover ~ #articleBox2 {
     border: 1px solid #484A47;
     width: 600px;
     cursor: pointer;
@@ -220,3 +225,6 @@ Pastel pink - #E0AC9D
 
 
 
+=======
+    q
+>>>>>>> origin/master

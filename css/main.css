@@ -148,6 +148,7 @@ a:hover, :active {
     width: 20%;
     height: 100px;
     position: absolute;
+    border-radius: 5px;
 }
  
 #box1 {
