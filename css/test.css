@@ -26,14 +26,15 @@
 
 .questionContainer a:hover, :active, :link, :visited
 {
-    color: black;
+    color: #EBEBEB;
 }
 
 /* Knapp */
 .buttonAnswer
 {
     position: relative;
-    background-color: lightgray;
+    color: #EBEBEB;
+    background-color: #5C6D70;
     text-align: center;
     align-self: center;
     display: block;
@@ -45,13 +46,6 @@
     margin-top: 3px;
     border: 1px solid black;
     transition: all 0.5s ease-in-out;
-}
-
-
-/* På trykk */
-.buttonCorrect:active
-{
-    background-color: greenyellow;
 }
 
 /*På trykk*/
