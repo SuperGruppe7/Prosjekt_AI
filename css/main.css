@@ -181,13 +181,26 @@ footer {
     border-top: 1px solid #484A47;
 }
 
+footer #footerCopyright
+{
+    position: absolute;
+    right: 5%;
+    bottom: 0;
+    height: 90%;
+    width: 20%;
+    font-family: 'Arial Rounded MT Bold', sans-serif;
+    color: #EBEBEB;
+    font-size: 15px;
+}
+
 footer #footerSocialContainer
 {
     position: absolute;
     left: 10%;
-    bottom: 5px;
-    height: 32px;
+    bottom: 0;
+    height: 90%;
     width: 20%;
+    margin: 3px;
 }
 
 #footerSocial
