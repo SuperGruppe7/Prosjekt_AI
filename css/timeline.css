@@ -128,7 +128,7 @@ Pastel pink - #E0AC9D
     width: 0;
     top: 80px;
     left: 25px;
-    transition: all 1.5s linear 0s;
+    transition: all 1.5s ease-out 0s;
     overflow: hidden;
     border: 0px solid #484A47;
     z-index: -7;
@@ -142,7 +142,7 @@ Pastel pink - #E0AC9D
     width: 0;
     top: 80px;
     right: 25px;
-    transition: all 1.5s linear 0s;
+    transition: all 1.5s ease-out 0s;
     overflow: hidden;
     border: 0px solid #484A47;
     background-size: cover;
@@ -287,5 +287,78 @@ Pastel pink - #E0AC9D
 }
 /*Artikkel Slutt*/
 
+/*Artikkel Start*/
+#title7 {
+    top: 1000px;
+    left: -70px;
+    
+}
+#articleBox7, #imgBox7 {
+    top: 1100px;
+}
+#title7:hover + #articleBox7 {
+    border: 1px solid #484A47;
+    width: 600px;
+    cursor: pointer;
+}
+#title7:hover ~ #imgBox7 {
+    border: 1px solid #484A47;
+    width: 600px;
+    cursor: pointer;
+}
 
+#imgBox7 {
+    background-image: url(../img/ArtikkelBilder/Prolog.png);
+}
 /*Artikkel Slutt*/
+
+/*Artikkel Start*/
+#title8 {
+    top: 1200px;
+    left: -420px;
+    
+}
+#articleBox8, #imgBox8 {
+    top: 1100px;
+}
+#title8:hover + #articleBox8 {
+    border: 1px solid #484A47;
+    width: 600px;
+    cursor: pointer;
+}
+#title8:hover ~ #imgBox8 {
+    border: 1px solid #484A47;
+    width: 600px;
+    cursor: pointer;
+}
+
+#imgBox8 {
+    background-image: url(../img/ArtikkelBilder/freddy-robot.jpg);
+}
+/*Artikkel Slutt*/
+
+/*Artikkel Start*/
+#title9 {
+    top: 1350px;
+    left: -70px;
+    
+}
+#articleBox9, #imgBox9 {
+    top: 1100px;
+}
+#title9:hover + #articleBox9 {
+    border: 1px solid #484A47;
+    width: 600px;
+    cursor: pointer;
+}
+#title9:hover ~ #imgBox9 {
+    border: 1px solid #484A47;
+    width: 600px;
+    cursor: pointer;
+}
+
+#imgBox9 {
+    background-image: url(../img/ArtikkelBilder/Bounded%20rationality.gif);
+}
+/*Artikkel Slutt*/
+
