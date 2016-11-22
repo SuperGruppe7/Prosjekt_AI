@@ -5,7 +5,8 @@ Middle red - #E88873
 Pastel pink - #E0AC9D
 */
 
-body {
+body 
+{
     margin: 0;  
 }
 
@@ -16,12 +17,16 @@ h3
     margin: 0;
 }
 
-a:visited, :link {
+a:visited, :link 
+{
     color: #EBEBEB;
     text-decoration: none;
+    -webkit-transition: 1s;
     transition: 1s;
 }
-a:hover, :active {
+
+a:hover, :active 
+{
     color: #BBBBBB;
     text-decoration: none;
 }
@@ -43,16 +48,19 @@ a:hover, :active {
     overflow-y: hidden;
 }
 
-#robotBoks {
+#robotBoks 
+{
     z-index: -10;
     position: fixed;
     width: 200px;
     bottom: -20px;
     right: 280px;
+    -webkit-transition: all .3s ease-in-out;
     transition: all .3s ease-in-out;
 }
 
 #robotBoks:hover{
+    -webkit-transform: scale(1.1);
     transform: scale(1.1);
 }
 
@@ -83,6 +91,7 @@ a:hover, :active {
     display: inline-block;
     font-size: 16px;
     margin: 4px 2px;
+    -webkit-transition-duration: 0.4s;
     transition-duration: 0.4s;
     cursor: pointer;
     background-color: #5C6D70;
@@ -91,7 +100,8 @@ a:hover, :active {
     border-radius: 5px;
 }
 
-.buttonHeader:hover {
+.buttonHeader:hover 
+{
     background-color: #A37774;
     color: white;
 }
@@ -221,11 +231,14 @@ footer #footerSocialContainer
     max-width: 100%;
 }
 
-#footerSocial img:hover {
+#footerSocial img:hover 
+{
+    -webkit-transform: scale(1.1);
     transform: scale(1.1);
 }
 
-#topButton {
+#topButton 
+{
     width: 100px;
     height: 20px;
     top: 4px;
@@ -239,17 +252,21 @@ footer #footerSocialContainer
     border-radius: 5px;
     text-align: center;
     font-family: 'Arial Rounded MT Bold', sans-serif; 
+    -webkit-transition-duration: 0.4s; 
     transition-duration: 0.4s;
 }
 
-#topButton:hover {
+#topButton:hover
+{
     background-color: #A37774;
 
 }
 
-.topText {
+.topText 
+{
     font-family: 'Ariel Rounded MT Bold', sans-serif;   
     color: #EBEBEB;
+    -webkit-transform: rotate(-45deg);
     transform: rotate(-45deg);
     font-size: 25px;
 }
