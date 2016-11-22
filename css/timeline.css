@@ -512,6 +512,81 @@ Pastel pink - #E0AC9D
 }
 /*Artikkel Slutt*/
 
+/*Artikkel Start*/
+#title16 {
+    top: 2550px;
+    left: -420px;
+    
+}
+#articleBox16, #imgBox16 {
+    top: 2630px;
+}
+#title16:hover + #articleBox16 {
+    border: 1px solid #484A47;
+    width: 600px;
+    cursor: pointer;
+}
+#title16:hover ~ #imgBox16 {
+    border: 1px solid #484A47;
+    width: 600px;
+    cursor: pointer;
+}
+
+#imgBox16 {
+    background-image: url(../img/ArtikkelBilder/DARPA%20Centibot.jpg);
+}
+/*Artikkel Slutt*/
+
+/*Artikkel Start*/
+#title17 {
+    top: 2700px;
+    left: -70px;
+    
+}
+#articleBox17, #imgBox17 {
+    top: 2630px;
+}
+#title17:hover + #articleBox17 {
+    border: 1px solid #484A47;
+    width: 600px;
+    cursor: pointer;
+}
+#title17:hover ~ #imgBox17 {
+    border: 1px solid #484A47;
+    width: 600px;
+    cursor: pointer;
+}
+
+#imgBox17 {
+    background-image: url(../img/ArtikkelBilder/Opportunity.jpg);
+}
+/*Artikkel Slutt*/
+
+/*Artikkel Start*/
+#title18 {
+    top: 2900px;
+    left: -420px;
+    
+}
+#articleBox18, #imgBox18 {
+    top: 2630px;
+}
+#title18:hover + #articleBox18 {
+    border: 1px solid #484A47;
+    width: 600px;
+    cursor: pointer;
+}
+#title18:hover ~ #imgBox18 {
+    border: 1px solid #484A47;
+    width: 600px;
+    cursor: pointer;
+}
+
+#imgBox18 {
+    background-image: url(../img/ArtikkelBilder/DARPA%20Centibot.jpg);
+}
+/*Artikkel Slutt*/
+
 
 
 
