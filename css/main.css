@@ -173,8 +173,8 @@ a:hover, :active {
     left: 80%;
 }
 
-
-footer {
+footer
+{
     width: 100%;
     height: 6%;
     background: #5C6D70;
@@ -183,7 +183,7 @@ footer {
     border-top: 1px solid #484A47;
 }
 
-footer #footerCopyright
+#footerCopyright
 {
     position: absolute;
     top: 30%;   
@@ -196,7 +196,7 @@ footer #footerCopyright
     font-size: 15px;
 }
 
-footer #footerSocialContainer
+#footerSocialContainer
 {
     position: absolute;
     left: 10%;
@@ -206,6 +206,16 @@ footer #footerSocialContainer
     height: 35px;
     margin: 3px;
     top: 3px;
+}
+
+#footerButtonContainer
+{
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    height: 100%;
+    width: 100px;
+    padding: 3px;
 }
 
 #footerSocial
@@ -225,10 +235,12 @@ footer #footerSocialContainer
     transform: scale(1.1);
 }
 
-#topButton {
+#topButton
+{
     width: 100px;
     height: 20px;
     top: 4px;
+    left: -50%;
     position: relative;
     margin: auto;
     background-color: #5C6D70;
@@ -242,11 +254,13 @@ footer #footerSocialContainer
     transition-duration: 0.4s;
 }
 
-#topButton:hover {
+#topButton:hover
+{
     background-color: #A37774;
 }
 
-.topText {
+.topText
+{
     font-family: 'Ariel Rounded MT Bold', sans-serif;   
     color: #EBEBEB;
     transform: rotate(-45deg);
