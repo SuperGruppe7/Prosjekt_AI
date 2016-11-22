@@ -60,7 +60,7 @@
 
 .buttonAnswer:hover{
     width: 83%;
-    transition: 1s;
+    transition: .3s;
     border-radius: 10px;
 }
 
@@ -98,6 +98,16 @@
     width: 250px;
     height: 250px;
     margin: 0;  
+}
+
+#resultTrump img:hover
+{
+    transform: scale(2.6)rotate(-60deg);
+}
+
+#resultTrump img 
+{
+    transition: 1.7s;
 }
 
 #resultTrump:hover + #resultText
