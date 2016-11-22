@@ -587,6 +587,82 @@ Pastel pink - #E0AC9D
 }
 /*Artikkel Slutt*/
 
+/*Artikkel Start*/
+#title19 {
+    top: 3100px;
+    left: -70px;
+    
+}
+#articleBox19, #imgBox19 {
+    top: 3140px;
+}
+#title19:hover + #articleBox19 {
+    border: 1px solid #484A47;
+    width: 600px;
+    cursor: pointer;
+}
+#title19:hover ~ #imgBox19{
+    border: 1px solid #484A47;
+    width: 600px;
+    cursor: pointer;
+}
+
+#imgBox19 {
+    background-image: url(../img/ArtikkelBilder/siri-iphone.jpg);
+}
+/*Artikkel Slutt*/
+
+/*Artikkel Start*/
+#title20 {
+    top: 3250px;
+    left: -420px;
+    
+}
+#articleBox20, #imgBox20 {
+    top: 3140px;
+}
+#title20:hover + #articleBox20 {
+    border: 1px solid #484A47;
+    width: 600px;
+    cursor: pointer;
+}
+#title20:hover ~ #imgBox20{
+    border: 1px solid #484A47;
+    width: 600px;
+    cursor: pointer;
+}
+
+#imgBox20 {
+    background-image: url(../img/ArtikkelBilder/Eugene%20Goostman.jpg);
+}
+/*Artikkel Slutt*/
+
+/*Artikkel Start*/
+#title21 {
+    top: 3400px;
+    left: -70px;
+    
+}
+#articleBox21, #imgBox21 {
+    top: 3140px;
+}
+#title21:hover + #articleBox21 {
+    border: 1px solid #484A47;
+    width: 600px;
+    cursor: pointer;
+}
+#title21:hover ~ #imgBox21 {
+    border: 1px solid #484A47;
+    width: 600px;
+    cursor: pointer;
+}
+
+#imgBox21 {
+    background-image: url(../img/ArtikkelBilder/BillStephenElon.jpg);
+}
+/*Artikkel Slutt*/
+
+
 
 
 
