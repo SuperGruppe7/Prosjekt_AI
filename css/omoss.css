@@ -1,8 +1,10 @@
-a:hover, :active, :link, :visited {
+a:hover, :active, :link, :visited 
+{
     color: black;
 }
 
-#articleContainer{
+#articleContainer
+{
     position: absolute; 
     width: 76%;
     top: 10%;
@@ -10,7 +12,8 @@ a:hover, :active, :link, :visited {
     margin: auto;
 }
 
-#whoArticle{
+#whoArticle
+{
     position: relative;
     width: 400px;
     height: 400px;
@@ -24,7 +27,8 @@ a:hover, :active, :link, :visited {
     border-radius: 30px;
 }
 
-#whoPicture {
+#whoPicture 
+{
     position: absolute;
     top: 0;
     left:0;
@@ -39,7 +43,8 @@ a:hover, :active, :link, :visited {
     height: 300px;
 } 
 
-#whoReason {
+#whoReason 
+{
     top: 21%;
     margin-left: 40%;
     z-index: -1;
