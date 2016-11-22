@@ -29,6 +29,7 @@ a:hover, :active, :link, :visited {
     top: 0;
     left:0;
     height: 250px;
+    -webkit-transition: all .2s ease-in-out;
     transition: all .2s ease-in-out;
     
 }
