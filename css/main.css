@@ -224,15 +224,23 @@ footer #footerSocialContainer
 
 #topButton {
     width: 100px;
-    height: 100px;
+    height: 20px;
+    top: 4px;
     position: relative;
-    top: -51px;
     margin: auto;
-    transform: rotate(45deg);
     background-color: #5C6D70;
-    border-top: 1px solid #484A47;
-    border-left: 1px solid #484A47;
-    
+    color: #EBEBEB;
+    font-size: 16px;
+    padding: 8px;
+    border: 2px solid #A37774;
+    border-radius: 5px;
+    text-align: center;
+    font-family: 'Arial Rounded MT Bold', sans-serif; 
+}
+
+#topButton:hover {
+    background-color: #A37774;
+
 }
 
 .topText {
