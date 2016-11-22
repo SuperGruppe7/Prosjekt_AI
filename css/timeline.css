@@ -487,6 +487,32 @@ Pastel pink - #E0AC9D
 }
 /*Artikkel Slutt*/
 
+/*Artikkel Start*/
+#title15 {
+    top: 2400px;
+    left: -70px;
+    
+}
+#articleBox15, #imgBox15 {
+    top: 2120px;
+}
+#title15:hover + #articleBox15 {
+    border: 1px solid #484A47;
+    width: 600px;
+    cursor: pointer;
+}
+#title15:hover ~ #imgBox15 {
+    border: 1px solid #484A47;
+    width: 600px;
+    cursor: pointer;
+}
+
+#imgBox15 {
+    background-image: url(../img/ArtikkelBilder/No%20Hnds%20across%20America.jpg);
+}
+/*Artikkel Slutt*/
+
+
 
 
 
