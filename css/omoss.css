@@ -10,7 +10,7 @@ a:hover, :active, :link, :visited {
     margin: auto;
 }
 
-#whoArticle{
+#whoArticle {
     position: relative;
     width: 400px;
     height: 400px;
@@ -42,6 +42,7 @@ a:hover, :active, :link, :visited {
     top: 21%;
     margin-left: 40%;
     z-index: -1;
+    font-size: 20px;
 }
 
 #whoDob, #whoDod, #whoName, #whoStory, #whoReason
