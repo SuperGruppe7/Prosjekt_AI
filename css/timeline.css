@@ -362,3 +362,131 @@ Pastel pink - #E0AC9D
 }
 /*Artikkel Slutt*/
 
+/*Artikkel Start*/
+#title10 {
+    top: 1550px;
+    left: -420px;
+    
+}
+#articleBox10, #imgBox10 {
+    top: 1610px;
+}
+#title10:hover + #articleBox10 {
+    border: 1px solid #484A47;
+    width: 600px;
+    cursor: pointer;
+}
+#title10:hover ~ #imgBox10 {
+    border: 1px solid #484A47;
+    width: 600px;
+    cursor: pointer;
+}
+
+#imgBox10 {
+    background-image: url(../img/ArtikkelBilder/AI%20Winter.jpg);
+}
+/*Artikkel Slutt*/
+
+/*Artikkel Start*/
+#title11 {
+    top: 1700px;
+    left: -70px;
+    
+}
+#articleBox11, #imgBox11 {
+    top: 1610px;
+}
+#title11:hover + #articleBox11 {
+    border: 1px solid #484A47;
+    width: 600px;
+    cursor: pointer;
+}
+#title11:hover ~ #imgBox11 {
+    border: 1px solid #484A47;
+    width: 600px;
+    cursor: pointer;
+}
+
+#imgBox11 {
+    background-image:url(../img/ArtikkelBilder/Skynet.jpg);
+}
+/*Artikkel Slutt*/
+
+/*Artikkel Start*/
+#title12 {
+    top: 1850px;
+    left: -420px;
+    
+}
+#articleBox12, #imgBox12 {
+    top: 1610px;
+}
+#title12:hover + #articleBox12 {
+    border: 1px solid #484A47;
+    width: 600px;
+    cursor: pointer;
+}
+#title12:hover ~ #imgBox12 {
+    border: 1px solid #484A47;
+    width: 600px;
+    cursor: pointer;
+}
+
+#imgBox12 {
+    background-image: url(../img/ArtikkelBilder/Deep%20Tought.jpg);
+}
+/*Artikkel Slutt*/
+
+/*Artikkel Start*/
+#title13 {
+    top: 2050px;
+    left: -70px;
+    
+}
+#articleBox13, #imgBox13 {
+    top: 2120px;
+}
+#title13:hover + #articleBox13 {
+    border: 1px solid #484A47;
+    width: 600px;
+    cursor: pointer;
+}
+#title13:hover ~ #imgBox13 {
+    border: 1px solid #484A47;
+    width: 600px;
+    cursor: pointer;
+}
+
+#imgBox13 {
+    background-image: url(../img/ArtikkelBilder/TD-Gammon.png);
+}
+/*Artikkel Slutt*/
+
+/*Artikkel Start*/
+#title14 {
+    top: 2250px;
+    left: -420px;
+    
+}
+#articleBox14, #imgBox14 {
+    top: 2120px;
+}
+#title14:hover + #articleBox14 {
+    border: 1px solid #484A47;
+    width: 600px;
+    cursor: pointer;
+}
+#title14:hover ~ #imgBox14 {
+    border: 1px solid #484A47;
+    width: 600px;
+    cursor: pointer;
+}
+
+#imgBox14 {
+    background-image: url(../img/ArtikkelBilder/ChinookTeam.jpg);
+}
+/*Artikkel Slutt*/
+
+
+
+
