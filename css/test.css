@@ -107,7 +107,7 @@
 
 #resultTrump img 
 {
-    transition: 1.7s;
+    transition: 1.7ygs;
 }
 
 #resultTrump:hover + #resultText

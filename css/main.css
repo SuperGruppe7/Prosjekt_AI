@@ -52,7 +52,7 @@ a:hover, :active {
     transition: all .3s ease-in-out;
 }
 
-#robotBoks:hover{
+#robotBoks:hover {
     transform: scale(1.1);
 }
 
