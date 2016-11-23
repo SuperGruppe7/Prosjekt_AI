@@ -185,6 +185,7 @@ Pastel pink - #E0AC9D
 
 #imgBox1 
 {
+    /*http://www.stutteringhelp.org/sites/default/files/pictures/alan-turing.jpg*/
     background-image: url(../img/ArtikkelBilder/Alan%20Turing.jpg);
 }
 
@@ -236,6 +237,7 @@ Pastel pink - #E0AC9D
 
 #imgBox2 
 {
+    /*http://image.slidesharecdn.com/artificialintelligence-140514034346-phpapp02/95/artificial-intelligence-16-638.jpg?cb=1400039106*/
     background-image: url(../img/ArtikkelBilder/Logic%20Theorist.jpg);
 }
 /*Artikkel Slutt*/
@@ -263,6 +265,7 @@ Pastel pink - #E0AC9D
 
 #imgBox3 
 {
+    /*http://metalisp.it-marks.com/php/meta/bilder/cl-php/lisp.png*/
     background-image: url(../img/ArtikkelBilder/LISP.png);
 }
 /*Artikkel Slutt*/
@@ -295,6 +298,7 @@ Pastel pink - #E0AC9D
 
 #imgBox4 
 {
+    /*http://www.roboticsbible.com/wp-content/uploads/2011/09/unimate-robot.jpg*/
     background-image: url(../img/ArtikkelBilder/UNIMATE.jpg);
 }
 /*Artikkel Slutt*/
@@ -327,6 +331,7 @@ Pastel pink - #E0AC9D
 
 #imgBox5 
 {
+    /*http://www.scielo.br/img/revistas/qn/v30n5/a48fg1sb.gif*/
     background-image: url(../img/ArtikkelBilder/DENDRAL.gif);
 }
 /*Artikkel Slutt*/
@@ -360,6 +365,7 @@ Pastel pink - #E0AC9D
 
 #imgBox6 
 {
+    /*https://upload.wikimedia.org/wikipedia/commons/b/bc/Shrdlu-original.jpg*/
     background-image: url(../img/ArtikkelBilder/SHRDLU.jpg);
 }
 /*Artikkel Slutt*/
@@ -392,6 +398,7 @@ Pastel pink - #E0AC9D
 
 #imgBox7 
 {
+    /*https://upload.wikimedia.org/wikipedia/en/1/1a/Programming_Examples_in_Prolog.png*/
     background-image: url(../img/ArtikkelBilder/Prolog.png);
 }
 /*Artikkel Slutt*/
@@ -401,7 +408,6 @@ Pastel pink - #E0AC9D
 {
     top: 1200px;
     left: -420px;
-    
 }
 
 #articleBox8, #imgBox8 
@@ -425,6 +431,7 @@ Pastel pink - #E0AC9D
 
 #imgBox8 
 {
+    /*http://www.aiai.ed.ac.uk/project/freddy/img/freddy-robot.jpg*/
     background-image: url(../img/ArtikkelBilder/freddy-robot.jpg);
 }
 /*Artikkel Slutt*/
@@ -458,6 +465,7 @@ Pastel pink - #E0AC9D
 
 #imgBox9 
 {
+    /*http://cnfolio.com/images/img511bounded.gif*/
     background-image: url(../img/ArtikkelBilder/Bounded%20rationality.gif);
 }
 /*Artikkel Slutt*/
@@ -490,6 +498,7 @@ Pastel pink - #E0AC9D
 
 #imgBox10 
 {
+    /*http://ichef.bbci.co.uk/images/ic/496xn/p0321037.jpg*/
     background-image: url(../img/ArtikkelBilder/AI%20Winter.jpg);
 }
 /*Artikkel Slutt*/
@@ -522,6 +531,7 @@ Pastel pink - #E0AC9D
 
 #imgBox11 
 {
+    /*http://ep.yimg.com/ay/yhst-39482811324711/skynet-92.gif*/
     background-image:url(../img/ArtikkelBilder/Skynet.jpg);
 }
 /*Artikkel Slutt*/
@@ -554,6 +564,7 @@ Pastel pink - #E0AC9D
 
 #imgBox12 
 {
+    /*https://chessprogramming.wikispaces.com/file/view/5-0%20and%205-2.Deep_Thought_Team_1988.102645336.HSU.lg.jpg/429489834/580x400/5-0%20and%205-2.Deep_Thought_Team_1988.102645336.HSU.lg.jpg*/
     background-image: url(../img/ArtikkelBilder/Deep%20Tought.jpg);
 }
 /*Artikkel Slutt*/
@@ -585,6 +596,7 @@ Pastel pink - #E0AC9D
 
 #imgBox13 
 {
+    /*https://web.stanford.edu/group/pdplab/pdphandbook/backgammon.png*/
     background-image: url(../img/ArtikkelBilder/TD-Gammon.png);
 }
 /*Artikkel Slutt*/
@@ -617,6 +629,7 @@ Pastel pink - #E0AC9D
 
 #imgBox14 
 {
+    /*http://4.bp.blogspot.com/-60mofHRQbQg/UDhm7wnJmjI/AAAAAAAAAEg/aj7dkt5zW0g/s1600/1992ChinookTeam.jpg*/
     background-image: url(../img/ArtikkelBilder/ChinookTeam.jpg);
 }
 /*Artikkel Slutt*/
@@ -649,6 +662,7 @@ Pastel pink - #E0AC9D
 
 #imgBox15 
 {
+    /*https://www.wired.com/images_blogs/autopia/2012/02/CMU-NavLab5-autonomous-vehicle.jpg*/
     background-image: url(../img/ArtikkelBilder/No%20Hnds%20across%20America.jpg);
 }
 /*Artikkel Slutt*/
@@ -681,6 +695,7 @@ Pastel pink - #E0AC9D
 
 #imgBox16 
 {
+    /*http://media.electronicsinfoline.com/wp-content/uploads/2015/07/02145918/488018146_7b9816b933.jpg*/
     background-image: url(../img/ArtikkelBilder/DARPA%20Centibot.jpg);
 }
 /*Artikkel Slutt*/
@@ -713,6 +728,7 @@ Pastel pink - #E0AC9D
 
 #imgBox17 
 {
+    /*http://images.spaceref.com/news/2013/CM7_P4_625.jpg*/
     background-image: url(../img/ArtikkelBilder/Opportunity.jpg);
 }
 /*Artikkel Slutt*/
@@ -745,6 +761,7 @@ Pastel pink - #E0AC9D
 
 #imgBox18 
 {
+    /*http://media.electronicsinfoline.com/wp-content/uploads/2015/07/02145918/488018146_7b9816b933.jpg*/
     background-image: url(../img/ArtikkelBilder/DARPA%20Centibot.jpg);
 }
 /*Artikkel Slutt*/
@@ -777,6 +794,7 @@ Pastel pink - #E0AC9D
 
 #imgBox19 
 {
+    /*http://cdn.bgr.com/2015/12/siri-iphone.jpg?quality=98&strip=all*/
     background-image: url(../img/ArtikkelBilder/siri-iphone.jpg);
 }
 /*Artikkel Slutt*/
@@ -809,6 +827,7 @@ Pastel pink - #E0AC9D
 
 #imgBox20 
 {
+    /*http://i.amz.mshcdn.com/4IEMd4kJ0u6PjB_DvBUWC9VJ3Zc=/fit-in/1200x9600/http%3A%2F%2Fmashable.com%2Fwp-content%2Fuploads%2F2014%2F06%2FEugeneGoostman.jpg*/
     background-image: url(../img/ArtikkelBilder/Eugene%20Goostman.jpg);
 }
 /*Artikkel Slutt*/
@@ -841,6 +860,7 @@ Pastel pink - #E0AC9D
 
 #imgBox21 
 {
+    /*https://nyoobserver.files.wordpress.com/2015/08/pizap-com14399942234041.jpg?quality=80*/
     background-image: url(../img/ArtikkelBilder/BillStephenElon.jpg);
 }
 /*Artikkel Slutt*/
@@ -873,7 +893,7 @@ Pastel pink - #E0AC9D
 
 #imgBox22
 {
-    background-image: url(../img/ArtikkelBilder/BillStephenElon.jpg);
+    background-image: url(../img/ArtikkelBilder/meksikanerroboter.jpg);
 }
 /*Artikkel Slutt*/
 
@@ -1162,7 +1182,8 @@ Pastel pink - #E0AC9D
 
 #imgBox31
 {
-    background-image: url(../img/ArtikkelBilder/BillStephenElon.jpg);
+    /*http://www.futuretimeline.net/22ndcentury/images/2100-technology.jpg*/
+    background-image: url(../img/ArtikkelBilder/skytjeneste_menneske.jpg);
 }
 /*Artikkel Slutt*/
 
