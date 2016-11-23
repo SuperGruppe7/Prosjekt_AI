@@ -49,7 +49,7 @@ a:hover, :active, :link, :visited
     margin-left: 40%;
     z-index: -1;
 }
-
+ 
 #whoDob, #whoDod, #whoName, #whoStory, #whoReason
 {
     position: absolute;
