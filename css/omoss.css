@@ -3,6 +3,11 @@ a:hover, :active, :link, :visited
     color: black;
 }
 
+#bodyContainer
+{
+    height: 1615px;
+}
+
 #articleContainer
 {
     position: absolute; 
