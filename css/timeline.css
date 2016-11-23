@@ -1118,6 +1118,37 @@ Pastel pink - #E0AC9D
 }
 /*Artikkel Slutt*/
 
+/*Artikkel Start*/
+#title31 
+{
+    top: 4600px;
+    left: -70px;  
+}
+
+#articleBox31, #imgBox31
+{
+    top: 4670px;
+}
+
+#title31:hover + #articleBox31
+{
+    border: 1px solid #484A47;
+    width: 600px;
+    cursor: pointer;
+}
+
+#title31:hover ~ #imgBox31
+{
+    border: 1px solid #484A47;
+    width: 600px;
+    cursor: pointer;
+}
+
+#imgBox31
+{
+    background-image: url(../img/ArtikkelBilder/BillStephenElon.jpg);
+}
+/*Artikkel Slutt*/
 
 
 
