@@ -48,6 +48,7 @@ a:hover, :active, :link, :visited
     top: 21%;
     margin-left: 40%;
     z-index: -1;
+    font-size: 19px;
 }
  
 #whoDob, #whoDod, #whoName, #whoStory, #whoReason

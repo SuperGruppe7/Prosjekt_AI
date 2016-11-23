@@ -5,9 +5,15 @@ Middle red - #E88873
 Pastel pink - #E0AC9D
 */
 
+html {
+	background: #A37774;
+}
 body 
 {
     margin: 0;  
+}
+br {
+	margin-bottom: 10px;
 }
 
 h3
