@@ -896,7 +896,7 @@ Pastel pink - #E0AC9D
 /*Artikkel Start*/
 #title24 
 {
-    top: 3700px;
+    top: 3600px;
     left: -420px;  
 }
 
@@ -928,7 +928,7 @@ Pastel pink - #E0AC9D
 /*Artikkel Start*/
 #title25 
 {
-    top: 3850px;
+    top: 3750px;
     left: -70px;  
 }
 
@@ -957,9 +957,102 @@ Pastel pink - #E0AC9D
 }
 /*Artikkel Slutt*/
 
+/*Artikkel Start*/
+#title26 
+{
+    top: 3850px;
+    left: -420px;  
+}
+
+#articleBox26, #imgBox26
+{
+    top: 3650px;
+}
+
+#title26:hover + #articleBox26
+{
+    border: 1px solid #484A47;
+    width: 600px;
+    cursor: pointer;
+}
+
+#title26:hover ~ #imgBox26
+{
+    border: 1px solid #484A47;
+    width: 600px;
+    cursor: pointer;
+}
+
+#imgBox26
+{
+    background-image: url(../img/ArtikkelBilder/BillStephenElon.jpg);
+}
+/*Artikkel Slutt*/
+
+/*Artikkel Start*/
+#title27 
+{
+    top: 4040px;
+    left: -70px;  
+}
+
+#articleBox27, #imgBox27
+{
+    top: 4160px;
+}
+
+#title27:hover + #articleBox27
+{
+    border: 1px solid #484A47;
+    width: 600px;
+    cursor: pointer;
+}
+
+#title27:hover ~ #imgBox27
+{
+    border: 1px solid #484A47;
+    width: 600px;
+    cursor: pointer;
+}
+
+#imgBox27
+{
+    background-image: url(../img/ArtikkelBilder/BillStephenElon.jpg);
+}
+/*Artikkel Slutt*/
 
 
+/*Artikkel Start*/
+#title28 
+{
+    top: 4140px;
+    left: -420px;  
+}
 
+#articleBox28, #imgBox28
+{
+    top: 4160px;
+}
+
+#title28:hover + #articleBox28
+{
+    border: 1px solid #484A47;
+    width: 600px;
+    cursor: pointer;
+}
+
+#title28:hover ~ #imgBox28
+{
+    border: 1px solid #484A47;
+    width: 600px;
+    cursor: pointer;
+}
+
+#imgBox28
+{
+    background-image: url(../img/ArtikkelBilder/BillStephenElon.jpg);
+}
+/*Artikkel Slutt*/
 
 
 
