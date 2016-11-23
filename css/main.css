@@ -172,20 +172,23 @@ a:hover, :active
 #box1 {
     background-color: #484A47;
 }
+
 #box2 {
     background-color: #5C6D70;
     left: 20%;
-   
 }
+
 #box3 {
     background-color: #A37774;
     left: 40%;
     z-index: -10;
 }
+
 #box4 {
     background-color: #E88873;
     left: 60%;
 }
+
 #box5 {
     background-color: #E0AC9D;
     left: 80%;
@@ -267,7 +270,6 @@ footer #footerSocialContainer
 #topButton:hover
 {
     background-color: #A37774;
-
 }
 
 .topText 
