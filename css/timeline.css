@@ -1537,6 +1537,51 @@ Pastel pink - #E0AC9D
 }
 /*Artikkel Slutt*/
 
+/*Artikkel Start*/
+#title32 
+{
+    top: 4650px;
+    left: -420px;  
+}
+
+#articleBox32, #imgBox32
+{
+    top: 4670px;
+}
+
+#title32:hover + #articleBox32
+{
+    border: 1px solid #484A47;
+    width: 600px;
+    cursor: pointer;
+}
+
+#title32:hover ~ #imgBox32
+{
+    border: 1px solid #484A47;
+    width: 600px;
+    cursor: pointer;
+}
+#imgBox32:hover
+{
+    border: 1px solid #484A47;
+    width: 600px;
+    cursor: pointer;
+}
+#imgBox32:hover ~ #articleBox32
+{
+    border: 1px solid #484A47;
+    width: 600px;
+    cursor: pointer;
+}
+
+#imgBox32
+{
+    /*http://www.futuretimeline.net/22ndcentury/images/2100-technology.jpg*/
+    background-image: url(../img/ArtikkelBilder/skytjeneste_menneske.jpg);
+}
+/*Artikkel Slutt*/
+
 
 
 
