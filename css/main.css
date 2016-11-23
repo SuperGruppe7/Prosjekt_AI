@@ -59,12 +59,10 @@ a:hover, :active
     transition: all .3s ease-in-out;
 }
 
-<<<<<<< HEAD
-#robotBoks:hover {
-=======
-#robotBoks:hover{
+
+#robotBoks:hover
+{
     -webkit-transform: scale(1.1);
->>>>>>> origin/master
     transform: scale(1.1);
 }
 
