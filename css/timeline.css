@@ -5,7 +5,8 @@ Middle red - #E88873
 Pastel pink - #E0AC9D
 */
 
-#timeline {
+#timeline 
+{
     margin: auto;
     width: 50px;
     top: 100px;
@@ -15,12 +16,14 @@ Pastel pink - #E0AC9D
     z-index: -9;
 }
 
-.timelineBox {
+.timelineBox 
+{
     position: absolute;
     width: 100px;
     height: 100px;
     left: -25px;
     background: #484A47;
+    -webkit-transform: rotate(45deg);
     transform: rotate(45deg);
     margin: auto;
     text-align: center;
@@ -29,55 +32,68 @@ Pastel pink - #E0AC9D
 
 /* Timelineårstallbokser posisjoner*/
 
-#bodyContainer {
+#bodyContainer 
+{
     height: 5500px;
 }
 
-#timelineBox1 {
+#timelineBox1 
+{
     top: -10px;
 }
 
-#timelineBox2 {
+#timelineBox2 
+{
     top: 500px;
 }
 
-#timelineBox3 {
+#timelineBox3 
+{
     top: 1010px;
 }
 
-#timelineBox4 {
+#timelineBox4 
+{
     top: 1520px;
 }
 
-#timelineBox5 {
+#timelineBox5 
+{
     top: 2030px;
 }
 
-#timelineBox6 {
+#timelineBox6 
+{
     top: 2540px;
 }
 
-#timelineBox7 {
+#timelineBox7 
+{
     top: 3050px;
 }
 
-#timelineBox8 {
+#timelineBox8 
+{
     top: 3560px;
 }
 
-#timelineBox9 {
+#timelineBox9 
+{
     top: 4070px;
 }
 
-#timelineBox10 {
+#timelineBox10 
+{
     top: 4580px;
 }
 /* Timelineårstallbokser posisjoner*/
 
-.yearBox {
+.yearBox 
+{
     position: absolute;
     left: 28px;
     top: 40px;
+    -webkit-transform: rotate(-45deg);
     transform: rotate(-45deg);
     color: #EBEBEB;
     font: 20px 'Arial Rounded MT Bold', sans-serif;
@@ -98,7 +114,8 @@ Pastel pink - #E0AC9D
     
 }
 
-.articleTitle {
+.articleTitle 
+{
     text-align: center;
     top: 0;
     width: 600px;
@@ -107,7 +124,8 @@ Pastel pink - #E0AC9D
     color: #EBEBEB;
 }
 
-.article { 
+.article 
+{ 
     font-size: 17px;
     text-align: left;
     width: 500px;
@@ -118,7 +136,8 @@ Pastel pink - #E0AC9D
     color: #EBEBEB;
 }
 
-.articleBox {
+.articleBox 
+{
     font-family: 'Arial Rounded MT Bold', sans-serif;
     position: absolute;
     background-color: #484A47;
@@ -127,6 +146,7 @@ Pastel pink - #E0AC9D
     width: 0;
     top: 80px;
     left: 25px;
+    -webkit-transition: all 1.5s ease-out 0s;
     transition: all 1.5s ease-out 0s;
     overflow: hidden;
     border: 0px solid #484A47;
@@ -135,13 +155,15 @@ Pastel pink - #E0AC9D
     border-left: none;
 }
 
-.imgBox {
+.imgBox 
+{
     position: absolute;
     background-color: #484A47;
     height: 430px;
     width: 0;
     top: 80px;
     right: 25px;
+    -webkit-transition: all 1.5s ease-out 0s;
     transition: all 1.5s ease-out 0s;
     overflow: hidden;
     border: 0px solid #484A47;
@@ -151,21 +173,25 @@ Pastel pink - #E0AC9D
 }    
 
 /*Artikkel Start*/
-#title1 {
+#title1 
+{
     left: -70px;
     top: 0px;
 }
 
-#imgBox1 {
+#imgBox1 
+{
     background-image: url(../img/ArtikkelBilder/Alan%20Turing.jpg);
 }
 
-#title1:hover ~ #articleBox1 {
+#title1:hover ~ #articleBox1 
+{
     border: 1px solid #484A47;
     width: 600px;
     cursor: pointer;
 }
-#title1:hover ~ #imgBox1 {
+#title1:hover ~ #imgBox1 
+{
     border: 1px solid #484A47;
     width: 600px;
     cursor: pointer;
@@ -173,492 +199,632 @@ Pastel pink - #E0AC9D
 /*Artikkel Slutt*/
 
 /*Artikkel Start*/
-#title2 {
+#title2 
+{
     top: 150px;
     left: -420px;
 }
 
-#title2:hover ~ #articleBox2 {
+#title2:hover ~ #articleBox2 
+{
     border: 1px solid #484A47;
     width: 600px;
     cursor: pointer;
 }
-#title2:hover ~ #imgBox2 {
+#title2:hover ~ #imgBox2 
+{
     border: 1px solid #484A47;
     width: 600px;
     cursor: pointer;
 }
 
-#imgBox2 {
+#imgBox2 
+{
     background-image: url(../img/ArtikkelBilder/Logic%20Theorist.jpg);
 }
 /*Artikkel Slutt*/
 
 /*Artikkel Start*/
-#title3 {
+#title3 
+{
     top: 300px;
     left: -70px;
 }
-#title3:hover + #articleBox3 {
-    border: 1px solid #484A47;
-    width: 600px;
-    cursor: pointer;
-}
-#title3:hover ~ #imgBox3 {
+
+#title3:hover + #articleBox3 
+{
     border: 1px solid #484A47;
     width: 600px;
     cursor: pointer;
 }
 
-#imgBox3 {
+#title3:hover ~ #imgBox3 
+{
+    border: 1px solid #484A47;
+    width: 600px;
+    cursor: pointer;
+}
+
+#imgBox3 
+{
     background-image: url(../img/ArtikkelBilder/LISP.png);
 }
 /*Artikkel Slutt*/
 
 /*Artikkel Start*/
-#title4 {
+#title4 
+{
     top: 500px;
     left: -420px;
 }
-#articleBox4, #imgBox4 {
+
+#articleBox4, #imgBox4 
+{
     top: 590px;
 }
-#title4:hover + #articleBox4 {
-    border: 1px solid #484A47;
-    width: 600px;
-    cursor: pointer;
-}
-#title4:hover ~ #imgBox4 {
+
+#title4:hover + #articleBox4 
+{
     border: 1px solid #484A47;
     width: 600px;
     cursor: pointer;
 }
 
-#imgBox4 {
+#title4:hover ~ #imgBox4 
+{
+    border: 1px solid #484A47;
+    width: 600px;
+    cursor: pointer;
+}
+
+#imgBox4 
+{
     background-image: url(../img/ArtikkelBilder/UNIMATE.jpg);
 }
 /*Artikkel Slutt*/
 
 /*Artikkel Start*/
-#title5 {
+#title5 
+{
     top: 600px;
     left: -70px;
 }
-#articleBox5, #imgBox5 {
+
+#articleBox5, #imgBox5 
+{
     top: 590px;
 }
-#title5:hover + #articleBox5 {
-    border: 1px solid #484A47;
-    width: 600px;
-    cursor: pointer;
-}
-#title5:hover ~ #imgBox5 {
+
+#title5:hover + #articleBox5 
+{
     border: 1px solid #484A47;
     width: 600px;
     cursor: pointer;
 }
 
-#imgBox5 {
+#title5:hover ~ #imgBox5 
+{
+    border: 1px solid #484A47;
+    width: 600px;
+    cursor: pointer;
+}
+
+#imgBox5 
+{
     background-image: url(../img/ArtikkelBilder/DENDRAL.gif);
 }
 /*Artikkel Slutt*/
 
 /*Artikkel Start*/
-#title6 {
+#title6 
+{
     top: 800px;
     left: -420px;
     
 }
-#articleBox6, #imgBox6 {
+
+#articleBox6, #imgBox6 
+{
     top: 590px;
 }
-#title6:hover + #articleBox6 {
-    border: 1px solid #484A47;
-    width: 600px;
-    cursor: pointer;
-}
-#title6:hover ~ #imgBox6 {
+
+#title6:hover + #articleBox6 
+{
     border: 1px solid #484A47;
     width: 600px;
     cursor: pointer;
 }
 
-#imgBox6 {
+#title6:hover ~ #imgBox6 
+{
+    border: 1px solid #484A47;
+    width: 600px;
+    cursor: pointer;
+}
+
+#imgBox6 
+{
     background-image: url(../img/ArtikkelBilder/SHRDLU.jpg);
 }
 /*Artikkel Slutt*/
 
 /*Artikkel Start*/
-#title7 {
+#title7 
+{
     top: 1000px;
     left: -70px;
-    
 }
-#articleBox7, #imgBox7 {
+
+#articleBox7, #imgBox7 
+{
     top: 1100px;
 }
-#title7:hover + #articleBox7 {
-    border: 1px solid #484A47;
-    width: 600px;
-    cursor: pointer;
-}
-#title7:hover ~ #imgBox7 {
+
+#title7:hover + #articleBox7 
+{
     border: 1px solid #484A47;
     width: 600px;
     cursor: pointer;
 }
 
-#imgBox7 {
+#title7:hover ~ #imgBox7 
+{
+    border: 1px solid #484A47;
+    width: 600px;
+    cursor: pointer;
+}
+
+#imgBox7 
+{
     background-image: url(../img/ArtikkelBilder/Prolog.png);
 }
 /*Artikkel Slutt*/
 
 /*Artikkel Start*/
-#title8 {
+#title8 
+{
     top: 1200px;
     left: -420px;
     
 }
-#articleBox8, #imgBox8 {
+
+#articleBox8, #imgBox8 
+{
     top: 1100px;
 }
-#title8:hover + #articleBox8 {
-    border: 1px solid #484A47;
-    width: 600px;
-    cursor: pointer;
-}
-#title8:hover ~ #imgBox8 {
+
+#title8:hover + #articleBox8 
+{
     border: 1px solid #484A47;
     width: 600px;
     cursor: pointer;
 }
 
-#imgBox8 {
+#title8:hover ~ #imgBox8 
+{
+    border: 1px solid #484A47;
+    width: 600px;
+    cursor: pointer;
+}
+
+#imgBox8 
+{
     background-image: url(../img/ArtikkelBilder/freddy-robot.jpg);
 }
 /*Artikkel Slutt*/
 
 /*Artikkel Start*/
-#title9 {
+#title9 
+{
     top: 1350px;
     left: -70px;
     
 }
-#articleBox9, #imgBox9 {
+
+#articleBox9, #imgBox9 
+{
     top: 1100px;
 }
-#title9:hover + #articleBox9 {
-    border: 1px solid #484A47;
-    width: 600px;
-    cursor: pointer;
-}
-#title9:hover ~ #imgBox9 {
+
+#title9:hover + #articleBox9 
+{
     border: 1px solid #484A47;
     width: 600px;
     cursor: pointer;
 }
 
-#imgBox9 {
+#title9:hover ~ #imgBox9 
+{
+    border: 1px solid #484A47;
+    width: 600px;
+    cursor: pointer;
+}
+
+#imgBox9 
+{
     background-image: url(../img/ArtikkelBilder/Bounded%20rationality.gif);
 }
 /*Artikkel Slutt*/
 
 /*Artikkel Start*/
-#title10 {
+#title10 
+{
     top: 1550px;
-    left: -420px;
-    
+    left: -420px;   
 }
-#articleBox10, #imgBox10 {
+
+#articleBox10, #imgBox10 
+{
     top: 1610px;
 }
-#title10:hover + #articleBox10 {
-    border: 1px solid #484A47;
-    width: 600px;
-    cursor: pointer;
-}
-#title10:hover ~ #imgBox10 {
+
+#title10:hover + #articleBox10 
+{
     border: 1px solid #484A47;
     width: 600px;
     cursor: pointer;
 }
 
-#imgBox10 {
+#title10:hover ~ #imgBox10 
+{
+    border: 1px solid #484A47;
+    width: 600px;
+    cursor: pointer;
+}
+
+#imgBox10 
+{
     background-image: url(../img/ArtikkelBilder/AI%20Winter.jpg);
 }
 /*Artikkel Slutt*/
 
 /*Artikkel Start*/
-#title11 {
+#title11 
+{
     top: 1700px;
     left: -70px;
-    
 }
-#articleBox11, #imgBox11 {
+
+#articleBox11, #imgBox11 
+{
     top: 1610px;
 }
-#title11:hover + #articleBox11 {
-    border: 1px solid #484A47;
-    width: 600px;
-    cursor: pointer;
-}
-#title11:hover ~ #imgBox11 {
+
+#title11:hover + #articleBox11 
+{
     border: 1px solid #484A47;
     width: 600px;
     cursor: pointer;
 }
 
-#imgBox11 {
+#title11:hover ~ #imgBox11 
+{
+    border: 1px solid #484A47;
+    width: 600px;
+    cursor: pointer;
+}
+
+#imgBox11 
+{
     background-image:url(../img/ArtikkelBilder/Skynet.jpg);
 }
 /*Artikkel Slutt*/
 
 /*Artikkel Start*/
-#title12 {
+#title12 
+{
     top: 1850px;
-    left: -420px;
-    
+    left: -420px;   
 }
-#articleBox12, #imgBox12 {
+
+#articleBox12, #imgBox12 
+{
     top: 1610px;
 }
-#title12:hover + #articleBox12 {
-    border: 1px solid #484A47;
-    width: 600px;
-    cursor: pointer;
-}
-#title12:hover ~ #imgBox12 {
+
+#title12:hover + #articleBox12 
+{
     border: 1px solid #484A47;
     width: 600px;
     cursor: pointer;
 }
 
-#imgBox12 {
+#title12:hover ~ #imgBox12 
+{
+    border: 1px solid #484A47;
+    width: 600px;
+    cursor: pointer;
+}
+
+#imgBox12 
+{
     background-image: url(../img/ArtikkelBilder/Deep%20Tought.jpg);
 }
 /*Artikkel Slutt*/
 
 /*Artikkel Start*/
-#title13 {
+#title13 
+{
     top: 2050px;
     left: -70px;
-    
 }
-#articleBox13, #imgBox13 {
+
+#articleBox13, #imgBox13 
+{
     top: 2120px;
 }
-#title13:hover + #articleBox13 {
+
+#title13:hover + #articleBox13 
+{
     border: 1px solid #484A47;
     width: 600px;
     cursor: pointer;
 }
-#title13:hover ~ #imgBox13 {
+#title13:hover ~ #imgBox13 
+{
     border: 1px solid #484A47;
     width: 600px;
     cursor: pointer;
 }
 
-#imgBox13 {
+#imgBox13 
+{
     background-image: url(../img/ArtikkelBilder/TD-Gammon.png);
 }
 /*Artikkel Slutt*/
 
 /*Artikkel Start*/
-#title14 {
+#title14 
+{
     top: 2250px;
-    left: -420px;
-    
+    left: -420px; 
 }
-#articleBox14, #imgBox14 {
+
+#articleBox14, #imgBox14 
+{
     top: 2120px;
 }
-#title14:hover + #articleBox14 {
-    border: 1px solid #484A47;
-    width: 600px;
-    cursor: pointer;
-}
-#title14:hover ~ #imgBox14 {
+
+#title14:hover + #articleBox14 
+{
     border: 1px solid #484A47;
     width: 600px;
     cursor: pointer;
 }
 
-#imgBox14 {
+#title14:hover ~ #imgBox14 
+{
+    border: 1px solid #484A47;
+    width: 600px;
+    cursor: pointer;
+}
+
+#imgBox14 
+{
     background-image: url(../img/ArtikkelBilder/ChinookTeam.jpg);
 }
 /*Artikkel Slutt*/
 
 /*Artikkel Start*/
-#title15 {
+#title15 
+{
     top: 2400px;
     left: -70px;
-    
 }
-#articleBox15, #imgBox15 {
+
+#articleBox15, #imgBox15 
+{
     top: 2120px;
 }
-#title15:hover + #articleBox15 {
-    border: 1px solid #484A47;
-    width: 600px;
-    cursor: pointer;
-}
-#title15:hover ~ #imgBox15 {
+
+#title15:hover + #articleBox15 
+{
     border: 1px solid #484A47;
     width: 600px;
     cursor: pointer;
 }
 
-#imgBox15 {
+#title15:hover ~ #imgBox15 
+{
+    border: 1px solid #484A47;
+    width: 600px;
+    cursor: pointer;
+}
+
+#imgBox15 
+{
     background-image: url(../img/ArtikkelBilder/No%20Hnds%20across%20America.jpg);
 }
 /*Artikkel Slutt*/
 
 /*Artikkel Start*/
-#title16 {
+#title16 
+{
     top: 2550px;
     left: -420px;
-    
 }
-#articleBox16, #imgBox16 {
+
+#articleBox16, #imgBox16 
+{
     top: 2630px;
 }
-#title16:hover + #articleBox16 {
-    border: 1px solid #484A47;
-    width: 600px;
-    cursor: pointer;
-}
-#title16:hover ~ #imgBox16 {
+
+#title16:hover + #articleBox16 
+{
     border: 1px solid #484A47;
     width: 600px;
     cursor: pointer;
 }
 
-#imgBox16 {
+#title16:hover ~ #imgBox16 
+{
+    border: 1px solid #484A47;
+    width: 600px;
+    cursor: pointer;
+}
+
+#imgBox16 
+{
     background-image: url(../img/ArtikkelBilder/DARPA%20Centibot.jpg);
 }
 /*Artikkel Slutt*/
 
 /*Artikkel Start*/
-#title17 {
+#title17 
+{
     top: 2700px;
-    left: -70px;
-    
+    left: -70px;  
 }
-#articleBox17, #imgBox17 {
+
+#articleBox17, #imgBox17 
+{
     top: 2630px;
 }
-#title17:hover + #articleBox17 {
-    border: 1px solid #484A47;
-    width: 600px;
-    cursor: pointer;
-}
-#title17:hover ~ #imgBox17 {
+
+#title17:hover + #articleBox17 
+{
     border: 1px solid #484A47;
     width: 600px;
     cursor: pointer;
 }
 
-#imgBox17 {
+#title17:hover ~ #imgBox17 
+{
+    border: 1px solid #484A47;
+    width: 600px;
+    cursor: pointer;
+}
+
+#imgBox17 
+{
     background-image: url(../img/ArtikkelBilder/Opportunity.jpg);
 }
 /*Artikkel Slutt*/
 
 /*Artikkel Start*/
-#title18 {
+#title18 
+{
     top: 2900px;
-    left: -420px;
-    
+    left: -420px;   
 }
-#articleBox18, #imgBox18 {
+
+#articleBox18, #imgBox18 
+{
     top: 2630px;
 }
-#title18:hover + #articleBox18 {
-    border: 1px solid #484A47;
-    width: 600px;
-    cursor: pointer;
-}
-#title18:hover ~ #imgBox18 {
+
+#title18:hover + #articleBox18 
+{
     border: 1px solid #484A47;
     width: 600px;
     cursor: pointer;
 }
 
-#imgBox18 {
+#title18:hover ~ #imgBox18 
+{
+    border: 1px solid #484A47;
+    width: 600px;
+    cursor: pointer;
+}
+
+#imgBox18 
+{
     background-image: url(../img/ArtikkelBilder/DARPA%20Centibot.jpg);
 }
 /*Artikkel Slutt*/
 
 /*Artikkel Start*/
-#title19 {
+#title19 
+{
     top: 3100px;
     left: -70px;
-    
 }
-#articleBox19, #imgBox19 {
+
+#articleBox19, #imgBox19 
+{
     top: 3140px;
 }
-#title19:hover + #articleBox19 {
-    border: 1px solid #484A47;
-    width: 600px;
-    cursor: pointer;
-}
-#title19:hover ~ #imgBox19{
+
+#title19:hover + #articleBox19 
+{
     border: 1px solid #484A47;
     width: 600px;
     cursor: pointer;
 }
 
-#imgBox19 {
+#title19:hover ~ #imgBox19
+{
+    border: 1px solid #484A47;
+    width: 600px;
+    cursor: pointer;
+}
+
+#imgBox19 
+{
     background-image: url(../img/ArtikkelBilder/siri-iphone.jpg);
 }
 /*Artikkel Slutt*/
 
 /*Artikkel Start*/
-#title20 {
+#title20 
+{
     top: 3250px;
-    left: -420px;
-    
+    left: -420px; 
 }
-#articleBox20, #imgBox20 {
+
+#articleBox20, #imgBox20 
+{
     top: 3140px;
 }
-#title20:hover + #articleBox20 {
-    border: 1px solid #484A47;
-    width: 600px;
-    cursor: pointer;
-}
-#title20:hover ~ #imgBox20{
+
+#title20:hover + #articleBox20 
+{
     border: 1px solid #484A47;
     width: 600px;
     cursor: pointer;
 }
 
-#imgBox20 {
+#title20:hover ~ #imgBox20
+{
+    border: 1px solid #484A47;
+    width: 600px;
+    cursor: pointer;
+}
+
+#imgBox20 
+{
     background-image: url(../img/ArtikkelBilder/Eugene%20Goostman.jpg);
 }
 /*Artikkel Slutt*/
 
 /*Artikkel Start*/
-#title21 {
+#title21 
+{
     top: 3400px;
-    left: -70px;
-    
+    left: -70px;  
 }
-#articleBox21, #imgBox21 {
+
+#articleBox21, #imgBox21 
+{
     top: 3140px;
 }
-#title21:hover + #articleBox21 {
-    border: 1px solid #484A47;
-    width: 600px;
-    cursor: pointer;
-}
-#title21:hover ~ #imgBox21 {
+
+#title21:hover + #articleBox21 
+{
     border: 1px solid #484A47;
     width: 600px;
     cursor: pointer;
 }
 
-#imgBox21 {
+#title21:hover ~ #imgBox21 
+{
+    border: 1px solid #484A47;
+    width: 600px;
+    cursor: pointer;
+}
+
+#imgBox21 
+{
     background-image: url(../img/ArtikkelBilder/BillStephenElon.jpg);
 }
 /*Artikkel Slutt*/
