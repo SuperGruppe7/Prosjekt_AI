@@ -213,6 +213,7 @@ Pastel pink - #E0AC9D
     width: 600px;
     cursor: pointer;
 }
+
 /*Artikkel Slutt*/
 
 /*Artikkel Start*/
@@ -234,6 +235,19 @@ Pastel pink - #E0AC9D
     width: 600px;
     cursor: pointer;
 }
+#imgBox2:hover
+{
+    border: 1px solid #484A47;
+    width: 600px;
+    cursor: pointer;
+}
+#imgBox2:hover ~ #articleBox2 
+{
+    border: 1px solid #484A47;
+    width: 600px;
+    cursor: pointer;
+}
+
 
 #imgBox2 
 {
@@ -262,7 +276,18 @@ Pastel pink - #E0AC9D
     width: 600px;
     cursor: pointer;
 }
-
+#articleBox3:hover
+{
+    border: 1px solid #484A47;
+    width: 600px;
+    cursor: pointer;
+}
+#articleBox3:hover + #imgBox3
+{
+    border: 1px solid #484A47;
+    width: 600px;
+    cursor: pointer;
+}
 #imgBox3 
 {
     /*http://metalisp.it-marks.com/php/meta/bilder/cl-php/lisp.png*/
@@ -290,6 +315,18 @@ Pastel pink - #E0AC9D
 }
 
 #title4:hover ~ #imgBox4 
+{
+    border: 1px solid #484A47;
+    width: 600px;
+    cursor: pointer;
+}
+#imgBox4:hover
+{
+    border: 1px solid #484A47;
+    width: 600px;
+    cursor: pointer;
+}
+#imgBox4:hover ~ #articleBox4
 {
     border: 1px solid #484A47;
     width: 600px;
@@ -328,7 +365,18 @@ Pastel pink - #E0AC9D
     width: 600px;
     cursor: pointer;
 }
-
+#articleBox5:hover
+{
+    border: 1px solid #484A47;
+    width: 600px;
+    cursor: pointer;
+}
+#articleBox5:hover + #imgBox5
+{
+    border: 1px solid #484A47;
+    width: 600px;
+    cursor: pointer;
+}
 #imgBox5 
 {
     /*http://www.scielo.br/img/revistas/qn/v30n5/a48fg1sb.gif*/
@@ -357,6 +405,18 @@ Pastel pink - #E0AC9D
 }
 
 #title6:hover ~ #imgBox6 
+{
+    border: 1px solid #484A47;
+    width: 600px;
+    cursor: pointer;
+}
+#imgBox6:hover
+{
+    border: 1px solid #484A47;
+    width: 600px;
+    cursor: pointer;
+}
+#imgBox6:hover ~ #articleBox6 
 {
     border: 1px solid #484A47;
     width: 600px;
@@ -395,8 +455,19 @@ Pastel pink - #E0AC9D
     width: 600px;
     cursor: pointer;
 }
-
-#imgBox7 
+#articleBox7:hover
+{
+    border: 1px solid #484A47;
+    width: 600px;
+    cursor: pointer;
+}
+#articleBox7:hover + #imgBox7
+{
+    border: 1px solid #484A47;
+    width: 600px;
+    cursor: pointer;
+}
+#imgBox7
 {
     /*https://upload.wikimedia.org/wikipedia/en/1/1a/Programming_Examples_in_Prolog.png*/
     background-image: url(../img/ArtikkelBilder/Prolog.png);
@@ -423,6 +494,18 @@ Pastel pink - #E0AC9D
 }
 
 #title8:hover ~ #imgBox8 
+{
+    border: 1px solid #484A47;
+    width: 600px;
+    cursor: pointer;
+}
+#imgBox8:hover
+{
+    border: 1px solid #484A47;
+    width: 600px;
+    cursor: pointer;
+}
+#imgBox8:hover ~ #articleBox8 
 {
     border: 1px solid #484A47;
     width: 600px;
@@ -462,7 +545,18 @@ Pastel pink - #E0AC9D
     width: 600px;
     cursor: pointer;
 }
-
+#articleBox9:hover
+{
+    border: 1px solid #484A47;
+    width: 600px;
+    cursor: pointer;
+}
+#articleBox9:hover + #imgBox9
+{
+    border: 1px solid #484A47;
+    width: 600px;
+    cursor: pointer;
+}
 #imgBox9 
 {
     /*http://cnfolio.com/images/img511bounded.gif*/
@@ -490,6 +584,18 @@ Pastel pink - #E0AC9D
 }
 
 #title10:hover ~ #imgBox10 
+{
+    border: 1px solid #484A47;
+    width: 600px;
+    cursor: pointer;
+}
+#imgBox10:hover
+{
+    border: 1px solid #484A47;
+    width: 600px;
+    cursor: pointer;
+}
+#imgBox10:hover ~ #articleBox10 
 {
     border: 1px solid #484A47;
     width: 600px;
@@ -528,7 +634,18 @@ Pastel pink - #E0AC9D
     width: 600px;
     cursor: pointer;
 }
-
+#articleBox11:hover
+{
+    border: 1px solid #484A47;
+    width: 600px;
+    cursor: pointer;
+}
+#articleBox11:hover + #imgBox11
+{
+    border: 1px solid #484A47;
+    width: 600px;
+    cursor: pointer;
+}
 #imgBox11 
 {
     /*http://ep.yimg.com/ay/yhst-39482811324711/skynet-92.gif*/
@@ -561,7 +678,18 @@ Pastel pink - #E0AC9D
     width: 600px;
     cursor: pointer;
 }
-
+#imgBox12:hover
+{
+    border: 1px solid #484A47;
+    width: 600px;
+    cursor: pointer;
+}
+#imgBox12:hover ~ #articleBox12 
+{
+    border: 1px solid #484A47;
+    width: 600px;
+    cursor: pointer;
+}
 #imgBox12 
 {
     /*https://chessprogramming.wikispaces.com/file/view/5-0%20and%205-2.Deep_Thought_Team_1988.102645336.HSU.lg.jpg/429489834/580x400/5-0%20and%205-2.Deep_Thought_Team_1988.102645336.HSU.lg.jpg*/
@@ -593,7 +721,18 @@ Pastel pink - #E0AC9D
     width: 600px;
     cursor: pointer;
 }
-
+#articleBox13:hover
+{
+    border: 1px solid #484A47;
+    width: 600px;
+    cursor: pointer;
+}
+#articleBox13:hover + #imgBox13
+{
+    border: 1px solid #484A47;
+    width: 600px;
+    cursor: pointer;
+}
 #imgBox13 
 {
     /*https://web.stanford.edu/group/pdplab/pdphandbook/backgammon.png*/
@@ -621,6 +760,18 @@ Pastel pink - #E0AC9D
 }
 
 #title14:hover ~ #imgBox14 
+{
+    border: 1px solid #484A47;
+    width: 600px;
+    cursor: pointer;
+}
+#imgBox14:hover
+{
+    border: 1px solid #484A47;
+    width: 600px;
+    cursor: pointer;
+}
+#imgBox14:hover ~ #articleBox14 
 {
     border: 1px solid #484A47;
     width: 600px;
@@ -659,7 +810,18 @@ Pastel pink - #E0AC9D
     width: 600px;
     cursor: pointer;
 }
-
+#articleBox15:hover
+{
+    border: 1px solid #484A47;
+    width: 600px;
+    cursor: pointer;
+}
+#articleBox15:hover + #imgBox15
+{
+    border: 1px solid #484A47;
+    width: 600px;
+    cursor: pointer;
+}
 #imgBox15 
 {
     /*https://www.wired.com/images_blogs/autopia/2012/02/CMU-NavLab5-autonomous-vehicle.jpg*/
@@ -687,6 +849,18 @@ Pastel pink - #E0AC9D
 }
 
 #title16:hover ~ #imgBox16 
+{
+    border: 1px solid #484A47;
+    width: 600px;
+    cursor: pointer;
+}
+#imgBox16:hover
+{
+    border: 1px solid #484A47;
+    width: 600px;
+    cursor: pointer;
+}
+#imgBox16:hover ~ #articleBox16
 {
     border: 1px solid #484A47;
     width: 600px;
@@ -725,7 +899,18 @@ Pastel pink - #E0AC9D
     width: 600px;
     cursor: pointer;
 }
-
+#articleBox17:hover
+{
+    border: 1px solid #484A47;
+    width: 600px;
+    cursor: pointer;
+}
+#articleBox17:hover + #imgBox17
+{
+    border: 1px solid #484A47;
+    width: 600px;
+    cursor: pointer;
+}
 #imgBox17 
 {
     /*http://images.spaceref.com/news/2013/CM7_P4_625.jpg*/
@@ -753,6 +938,18 @@ Pastel pink - #E0AC9D
 }
 
 #title18:hover ~ #imgBox18 
+{
+    border: 1px solid #484A47;
+    width: 600px;
+    cursor: pointer;
+}
+#imgBox18:hover
+{
+    border: 1px solid #484A47;
+    width: 600px;
+    cursor: pointer;
+}
+#imgBox18:hover ~ #articleBox18
 {
     border: 1px solid #484A47;
     width: 600px;
@@ -791,7 +988,18 @@ Pastel pink - #E0AC9D
     width: 600px;
     cursor: pointer;
 }
-
+#articleBox19:hover
+{
+    border: 1px solid #484A47;
+    width: 600px;
+    cursor: pointer;
+}
+#articleBox19:hover + #imgBox19
+{
+    border: 1px solid #484A47;
+    width: 600px;
+    cursor: pointer;
+}
 #imgBox19 
 {
     /*http://cdn.bgr.com/2015/12/siri-iphone.jpg?quality=98&strip=all*/
@@ -819,6 +1027,18 @@ Pastel pink - #E0AC9D
 }
 
 #title20:hover ~ #imgBox20
+{
+    border: 1px solid #484A47;
+    width: 600px;
+    cursor: pointer;
+}
+#imgBox20:hover
+{
+    border: 1px solid #484A47;
+    width: 600px;
+    cursor: pointer;
+}
+#imgBox20:hover ~ #articleBox20
 {
     border: 1px solid #484A47;
     width: 600px;
@@ -857,7 +1077,18 @@ Pastel pink - #E0AC9D
     width: 600px;
     cursor: pointer;
 }
-
+#articleBox21:hover
+{
+    border: 1px solid #484A47;
+    width: 600px;
+    cursor: pointer;
+}
+#articleBox21:hover + #imgBox21
+{
+    border: 1px solid #484A47;
+    width: 600px;
+    cursor: pointer;
+}
 #imgBox21 
 {
     /*https://nyoobserver.files.wordpress.com/2015/08/pizap-com14399942234041.jpg?quality=80*/
@@ -885,6 +1116,18 @@ Pastel pink - #E0AC9D
 }
 
 #title22:hover ~ #imgBox22
+{
+    border: 1px solid #484A47;
+    width: 600px;
+    cursor: pointer;
+}
+#imgBox22:hover
+{
+    border: 1px solid #484A47;
+    width: 600px;
+    cursor: pointer;
+}
+#imgBox22:hover ~ #articleBox22 
 {
     border: 1px solid #484A47;
     width: 600px;
@@ -923,7 +1166,18 @@ Pastel pink - #E0AC9D
     width: 600px;
     cursor: pointer;
 }
-
+#articleBox23:hover
+{
+    border: 1px solid #484A47;
+    width: 600px;
+    cursor: pointer;
+}
+#articleBox23:hover + #imgBox23
+{
+    border: 1px solid #484A47;
+    width: 600px;
+    cursor: pointer;
+}
 #imgBox23
 {
     background-image: url(../img/ArtikkelBilder/meksikanerroboter.jpg);
@@ -950,6 +1204,18 @@ Pastel pink - #E0AC9D
 }
 
 #title24:hover ~ #imgBox24
+{
+    border: 1px solid #484A47;
+    width: 600px;
+    cursor: pointer;
+}
+#imgBox24:hover
+{
+    border: 1px solid #484A47;
+    width: 600px;
+    cursor: pointer;
+}
+#imgBox24:hover ~ #articleBox24 
 {
     border: 1px solid #484A47;
     width: 600px;
@@ -988,7 +1254,18 @@ Pastel pink - #E0AC9D
     width: 600px;
     cursor: pointer;
 }
-
+#articleBox25:hover
+{
+    border: 1px solid #484A47;
+    width: 600px;
+    cursor: pointer;
+}
+#articleBox25:hover + #imgBox25
+{
+    border: 1px solid #484A47;
+    width: 600px;
+    cursor: pointer;
+}
 #imgBox25
 {
     background-image: url(../img/ArtikkelBilder/Trumpinator.jpg);
@@ -1015,6 +1292,18 @@ Pastel pink - #E0AC9D
 }
 
 #title26:hover ~ #imgBox26
+{
+    border: 1px solid #484A47;
+    width: 600px;
+    cursor: pointer;
+}
+#imgBox26:hover
+{
+    border: 1px solid #484A47;
+    width: 600px;
+    cursor: pointer;
+}
+#imgBox26:hover ~ #articleBox2 
 {
     border: 1px solid #484A47;
     width: 600px;
@@ -1053,7 +1342,18 @@ Pastel pink - #E0AC9D
     width: 600px;
     cursor: pointer;
 }
-
+#articleBox27:hover
+{
+    border: 1px solid #484A47;
+    width: 600px;
+    cursor: pointer;
+}
+#articleBox27:hover + #imgBox27
+{
+    border: 1px solid #484A47;
+    width: 600px;
+    cursor: pointer;
+}
 #imgBox27
 {
     /*https://pbs.twimg.com/profile_images/719026801591390208/AmO7y5P7_400x400.jpg*/
@@ -1082,6 +1382,18 @@ Pastel pink - #E0AC9D
 }
 
 #title28:hover ~ #imgBox28
+{
+    border: 1px solid #484A47;
+    width: 600px;
+    cursor: pointer;
+}
+#imgBox28:hover
+{
+    border: 1px solid #484A47;
+    width: 600px;
+    cursor: pointer;
+}
+#imgBox28:hover ~ #articleBox28 
 {
     border: 1px solid #484A47;
     width: 600px;
@@ -1119,7 +1431,18 @@ Pastel pink - #E0AC9D
     width: 600px;
     cursor: pointer;
 }
-
+#articleBox29:hover
+{
+    border: 1px solid #484A47;
+    width: 600px;
+    cursor: pointer;
+}
+#articleBox29:hover + #imgBox29
+{
+    border: 1px solid #484A47;
+    width: 600px;
+    cursor: pointer;
+}
 #imgBox29
 {
     background-image: url(../img/ArtikkelBilder/BillStephenElon.jpg);
@@ -1146,6 +1469,18 @@ Pastel pink - #E0AC9D
 }
 
 #title30:hover ~ #imgBox30
+{
+    border: 1px solid #484A47;
+    width: 600px;
+    cursor: pointer;
+}
+#imgBox30:hover
+{
+    border: 1px solid #484A47;
+    width: 600px;
+    cursor: pointer;
+}
+#imgBox30:hover ~ #articleBox30
 {
     border: 1px solid #484A47;
     width: 600px;
@@ -1183,7 +1518,18 @@ Pastel pink - #E0AC9D
     width: 600px;
     cursor: pointer;
 }
-
+#articleBox31:hover
+{
+    border: 1px solid #484A47;
+    width: 600px;
+    cursor: pointer;
+}
+#articleBox31:hover + #imgBox31
+{
+    border: 1px solid #484A47;
+    width: 600px;
+    cursor: pointer;
+}
 #imgBox31
 {
     /*http://www.futuretimeline.net/22ndcentury/images/2100-technology.jpg*/
