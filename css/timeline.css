@@ -91,7 +91,7 @@ Pastel pink - #E0AC9D
 .yearBox 
 {
     position: absolute;
-    left: 28px;
+    left: 30px;
     top: 40px;
     -webkit-transform: rotate(-45deg);
     transform: rotate(-45deg);
@@ -1023,7 +1023,7 @@ Pastel pink - #E0AC9D
 
 
 /*Artikkel Start*/
-#title28 
+#title28
 {
     top: 4140px;
     left: -420px;  
@@ -1049,6 +1049,70 @@ Pastel pink - #E0AC9D
 }
 
 #imgBox28
+{
+    background-image: url(../img/ArtikkelBilder/BillStephenElon.jpg);
+}
+/*Artikkel Slutt*/
+
+/*Artikkel Start*/
+#title29 
+{
+    top: 4240px;
+    left: -70px;  
+}
+
+#articleBox29, #imgBox29
+{
+    top: 4160px;
+}
+
+#title29:hover + #articleBox29
+{
+    border: 1px solid #484A47;
+    width: 600px;
+    cursor: pointer;
+}
+
+#title29:hover ~ #imgBox29
+{
+    border: 1px solid #484A47;
+    width: 600px;
+    cursor: pointer;
+}
+
+#imgBox29
+{
+    background-image: url(../img/ArtikkelBilder/BillStephenElon.jpg);
+}
+/*Artikkel Slutt*/
+
+/*Artikkel Start*/
+#title30 
+{
+    top: 4350px;
+    left: -420px;  
+}
+
+#articleBox30, #imgBox30
+{
+    top: 4160px;
+}
+
+#title30:hover + #articleBox30
+{
+    border: 1px solid #484A47;
+    width: 600px;
+    cursor: pointer;
+}
+
+#title30:hover ~ #imgBox30
+{
+    border: 1px solid #484A47;
+    width: 600px;
+    cursor: pointer;
+}
+
+#imgBox30
 {
     background-image: url(../img/ArtikkelBilder/BillStephenElon.jpg);
 }
